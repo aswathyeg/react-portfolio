@@ -13,13 +13,10 @@ import { Link } from "react-scroll";
 import { Container, Navbar, NavbarBrand, NavItem, Nav } from "react-bootstrap";
 
 const NavbarPage = () => {
-  const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
-
   return (
-    <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
-      <Container variant="dark" bg="dark" style={{ height: 80 }}>
-        <NavbarBrand>Aswathy E G </NavbarBrand>
+    <Navbar className="navbarStyle">
+      <Container>
+        <NavbarBrand className="navbrand">Aswathy E G </NavbarBrand>
 
         {/* menu */}
         <Nav className="m-auto">
@@ -90,7 +87,7 @@ const NavbarPage = () => {
       </Container>
 
       {/* Social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      {/* <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
@@ -125,7 +122,7 @@ const NavbarPage = () => {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </Navbar>
   );
 };
