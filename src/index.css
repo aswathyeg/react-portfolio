@@ -1,17 +1,96 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+@layer base { 
+    body {
+        @apply font-[Raleway];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 255, 255, 0.8),
+        hsla(158, 74%, 61%, 0.8)   
+    )!important;
+} */
+.App {
+    background-color: linear-gradient(to right,#FFDDE1, white)!important
+  }
+.m-auto{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.5;
+    cursor: pointer;
+    color: #00CDAC;
+    font-size: medium;
+    font-family:cursive;
+   
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.navbarStyle{
+    height: 80px;
+    background: linear-gradient(to right,#FFDDE1, white)!important
+}
+.homeContainer{
+    
+    
+}
+.homediv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    /* background-color: linear-gradient(to right,#FFDDE1, white)!important */
+}
+.homeCard{
+    
+    color: #00CDAC;
+    align-items: center;
+    border: none!important;
+    font-size: medium;
+    font-family:cursive;
+    /* background: #FFDDE1!important */
+}
+.navbrand{
+    font-size: medium!important;
+    font-family:cursive!important;
+    color: #00CDAC!important;
+
+}
+.cardTitle{
+    font-size: large!important;
+}
+.flex-column{
+margin-top: 2%;
+}
+.homeBadge{
+    color:#FFDDE1;
+    background-color:#00CDAC ;
+    height: 25px;
+}
+.homeBadge:hover{
+    background-color: #FFDDE1!important;
+    color:#00CDAC
+}
+.homeBadge:active{
+    background-color: #00CDAC;
+  box-shadow: 0 10px #00CDAC;
+  transform: translateY(4px);
+}
+.homeDiv{
+    /* background-color:linear-gradient(red, yellow, green)!important; */
+    /* background: linear-gradient(to right,#FFDDE1, white)!important */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
