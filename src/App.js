@@ -7,13 +7,13 @@ import Works from "./components/Works";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
       <Home />
-      <About />
+      {/* <About />
       <Skills />
       <Works />
-      <Contact />
+      <Contact /> */}
     </div>
   );
 }
