@@ -25,7 +25,7 @@
     )!important;
 } */
 .App {
-    background: linear-gradient(to right,#FFDDE1, white)!important
+    background-color: linear-gradient(to right,#FFDDE1, white)!important
   }
 .m-auto{
     display: flex;
@@ -61,7 +61,7 @@
     border: none!important;
     font-size: medium;
     font-family:cursive;
-    background: #FFDDE1!important
+    /* background: #FFDDE1!important */
 }
 .navbrand{
     font-size: medium!important;
@@ -78,9 +78,19 @@ margin-top: 2%;
 .homeBadge{
     color:#FFDDE1;
     background-color:#00CDAC ;
+    height: 25px;
+}
+.homeBadge:hover{
+    background-color: #FFDDE1!important;
+    color:#00CDAC
+}
+.homeBadge:active{
+    background-color: #00CDAC;
+  box-shadow: 0 10px #00CDAC;
+  transform: translateY(4px);
 }
 .homeDiv{
     /* background-color:linear-gradient(red, yellow, green)!important; */
-    background: linear-gradient(to right,#FFDDE1, white)!important
+    /* background: linear-gradient(to right,#FFDDE1, white)!important */
 }
 
