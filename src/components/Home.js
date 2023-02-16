@@ -16,13 +16,13 @@ const Home = () => {
     <div className="homeDiv">
       <Nav className="flex-column">
         <Nav.Link href="/home">
-          <AiFillLinkedin />
+          <AiFillLinkedin color="#00CDAC" />
         </Nav.Link>
         <Nav.Link eventKey="link-1">
-          <AiTwotoneMail />
+          <AiTwotoneMail color="#00CDAC" />
         </Nav.Link>
-        <Nav.Link eventKey="link-2">
-          <AiFillGithub />
+        <Nav.Link eventKey="link-2" color="#00CDAC">
+          <AiFillGithub color="#00CDAC" />
         </Nav.Link>
       </Nav>
       <Container className="homeContainer">
