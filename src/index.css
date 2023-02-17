@@ -24,9 +24,9 @@
         hsla(158, 74%, 61%, 0.8)   
     )!important;
 } */
-.App {
+/* .App {
     background-color: linear-gradient(to right,#FFDDE1, white)!important
-  }
+  } */
 .m-auto{
     display: flex;
     justify-content: space-between;
@@ -38,9 +38,14 @@
    
 
 }
+.links{
+    text-decoration: none!important;
+    color: #00CDAC!important;
+
+}
 .navbarStyle{
     height: 80px;
-    background: linear-gradient(to right,#FFDDE1, white)!important
+    background:white!important
 }
 .homeContainer{
     
@@ -65,9 +70,10 @@
 }
 .navbrand{
     font-size: medium!important;
-    font-family:cursive!important;
-    color: #00CDAC!important;
-
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    color: black!important;
+     text-decoration: none!important;
+    
 }
 .cardTitle{
     font-size: large!important;
