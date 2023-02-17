@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import face from "../assets/face.png";
+import photo from "../assets/photo.jpg";
 import { Link } from "react-scroll";
 import { Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className="homeDiv">
       <Nav className="flex-column">
-        <Nav.Link href="/home">
+        <Nav.Link>
           <AiFillLinkedin color="#00CDAC" />
         </Nav.Link>
         <Nav.Link eventKey="link-1">
@@ -48,7 +48,12 @@ const Home = () => {
           <Card className="homeCard">
             {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
             <Figure>
-              <Figure.Image width={371} height={380} alt="171x180" src={face} />
+              <Figure.Image
+                width={371}
+                height={380}
+                alt="171x180"
+                src={photo}
+              />
             </Figure>
           </Card>
         </CardGroup>
