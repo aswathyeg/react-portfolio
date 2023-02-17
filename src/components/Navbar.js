@@ -9,36 +9,35 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Link } from "react-scroll";
-import { Container, Navbar, NavbarBrand, NavItem, Nav } from "react-bootstrap";
 
+import { Container, Navbar, NavbarBrand, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const NavbarPage = () => {
   return (
     <Navbar className="navbarStyle">
       <Container>
-        <NavbarBrand className="navbrand">Aswathy E G </NavbarBrand>
+        <Link to="/" className="navbrand">
+          Aswathy E G{" "}
+        </Link>
 
         {/* menu */}
         <Nav className="m-auto">
-          <NavItem Link to="home">
+          {/* <NavItem Link to="/home">
             Home
-          </NavItem>
-          <NavItem Link to="about">
+          </NavItem> */}
+          <Link to="about" className="links">
             About
-          </NavItem>
-          <NavItem Link to="skills">
-            {" "}
+          </Link>
+          <Link to="skills" className="links">
             Skills
-          </NavItem>
+          </Link>
 
-          <NavItem Link to="work">
-            {" "}
-            Work
-          </NavItem>
-          <NavItem Link to="contact">
-            {" "}
+          <Link to="works" className="links">
+            Works
+          </Link>
+          <Link to="contact" className="links">
             Contact
-          </NavItem>
+          </Link>
         </Nav>
         {/* Hamburger */}
 
