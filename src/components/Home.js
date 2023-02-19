@@ -1,8 +1,8 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import photo from "../assets/photo.jpg";
-import { Link } from "react-scroll";
+import face from "../assets/face.jpg";
+
 import { Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
@@ -11,18 +11,28 @@ import Figure from "react-bootstrap/Figure";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiTwotoneMail } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
+import { Link } from "react-router-dom";
+import Works from "./Works";
 const Home = () => {
   return (
     <div className="homeDiv">
       <Nav className="flex-column">
         <Nav.Link>
-          <AiFillLinkedin color="#00CDAC" />
+          <AiFillLinkedin
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/aswathyeg/")
+            }
+            color="black"
+          />
         </Nav.Link>
         <Nav.Link eventKey="link-1">
-          <AiTwotoneMail color="#00CDAC" />
+          <AiTwotoneMail color="black" />
         </Nav.Link>
-        <Nav.Link eventKey="link-2" color="#00CDAC">
-          <AiFillGithub color="#00CDAC" />
+        <Nav.Link eventKey="link-2">
+          <AiFillGithub
+            color="black"
+            onClick={() => window.open("https://github.com/aswathyeg")}
+          />
         </Nav.Link>
       </Nav>
       <Container className="homeContainer">
@@ -39,24 +49,20 @@ const Home = () => {
                 is my other interest.
               </Card.Text>
             </Card.Body>
-            <div>
-              <Badge pill bg="info" className="homeBadge">
+            {/* <div>
+              <Badge pill bg="info">
                 About Me
               </Badge>{" "}
-            </div>
+            </div> */}
           </Card>
           <Card className="homeCard">
             {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
             <Figure>
-              <Figure.Image
-                width={371}
-                height={380}
-                alt="171x180"
-                src={photo}
-              />
+              <Figure.Image width={371} height={380} alt="171x180" src={face} />
             </Figure>
           </Card>
         </CardGroup>
+        <Works />
       </Container>
     </div>
   );
