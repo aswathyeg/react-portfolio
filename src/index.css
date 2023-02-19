@@ -32,15 +32,15 @@
     justify-content: space-between;
     flex: 0.5;
     cursor: pointer;
-    color: #00CDAC;
+    /* color: #00CDAC; */
     font-size: medium;
-    font-family:cursive;
+    /* font-family:cursive; */
    
 
 }
 .links{
     text-decoration: none!important;
-    color: #00CDAC!important;
+    color: black!important;
 
 }
 .navbarStyle{
@@ -61,42 +61,65 @@
 }
 .homeCard{
     
-    color: #00CDAC;
+    color: black;
     align-items: center;
     border: none!important;
     font-size: medium;
-    font-family:cursive;
+    /* font-family:cursive; */
     /* background: #FFDDE1!important */
 }
 .navbrand{
     font-size: medium!important;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; */
     color: black!important;
      text-decoration: none!important;
     
 }
 .cardTitle{
     font-size: large!important;
+  
+
 }
 .flex-column{
 margin-top: 2%;
 }
-.homeBadge{
-    color:#FFDDE1;
-    background-color:#00CDAC ;
+/* .homeBadge{
+    color:white!important;
+    background-color:black !important;
     height: 25px;
 }
 .homeBadge:hover{
-    background-color: #FFDDE1!important;
-    color:#00CDAC
+    background-color: white!important;
+    color:black!important
 }
 .homeBadge:active{
-    background-color: #00CDAC;
-  box-shadow: 0 10px #00CDAC;
+    background-color: black!important;
+  box-shadow: 0 10px grey;
   transform: translateY(4px);
-}
+} */
 .homeDiv{
     /* background-color:linear-gradient(red, yellow, green)!important; */
     /* background: linear-gradient(to right,#FFDDE1, white)!important */
+}
+/* .worksCards{
+
+    align-items: center!important;
+    border: none!important;
+
+} */
+.worksCard{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 120px 130px;
+   
+    
+}
+.WorksCarousal{
+
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
 }
 
