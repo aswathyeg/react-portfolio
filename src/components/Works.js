@@ -8,14 +8,14 @@ import black from "../assets/black.jpg";
 const Works = () => {
   return (
     <Carousel>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={100000}>
         <img className="d-block w-100" src={black} alt="First slide" />
         <Carousel.Caption className="WorksCarousal">
           <h3>Bodhii</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={1000}>
+      <Carousel.Item interval={100000}>
         <img className="d-block w-100" src={black} alt="Second slide" />
         <Carousel.Caption className="WorksCarousal">
           <h3>Papyrus</h3>
