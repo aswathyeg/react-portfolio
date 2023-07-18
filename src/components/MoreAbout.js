@@ -9,12 +9,12 @@ function MoreAbout() {
   return (
     <>
       <Button
-        color="black"
+        variant="dark"
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
         aria-expanded={open}
       >
-        About Me
+        Introduction
       </Button>
       <div style={{ minHeight: "150px" }}>
         <Collapse in={open} dimension="width">

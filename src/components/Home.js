@@ -63,8 +63,8 @@ const Home = () => {
             </Figure>
           </Card>
         </CardGroup>
-        <Works />
         <About />
+        <Works />
       </Container>
     </div>
   );
