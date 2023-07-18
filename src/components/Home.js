@@ -13,6 +13,8 @@ import { AiTwotoneMail } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Works from "./Works";
+import About from "./About";
+import MoreAbout from "./MoreAbout";
 const Home = () => {
   return (
     <div className="homeDiv">
@@ -39,15 +41,14 @@ const Home = () => {
         <CardGroup className="homeCard">
           <Card className="homeCard">
             <Card.Body>
-              <Card.Title className="cardTitle">
-                I'm a Front End Developer.
-              </Card.Title>
-              <Card.Text>
-                Over the past 2 years experience in front end development, I
-                have done a handful of projects in React. I am doing reguler
-                cotributions to Github.Sharing my technical knowledge in Medium
-                is my other interest.
-              </Card.Text>
+              <Card.Title className="cardTitle">Aswathy E G</Card.Title>
+              <MoreAbout />
+              {/* <Card.Text>
+                Hi, I'm a front end developer. Over the past 2 years experience
+                in development, I have done a handful of projects in React. I am
+                doing reguler cotributions to Github.Sharing my technical
+                knowledge in Medium is my other interest.
+              </Card.Text> */}
             </Card.Body>
             {/* <div>
               <Badge pill bg="info">
@@ -62,6 +63,7 @@ const Home = () => {
             </Figure>
           </Card>
         </CardGroup>
+        <About />
         <Works />
       </Container>
     </div>
