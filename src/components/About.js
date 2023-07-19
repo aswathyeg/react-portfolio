@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Card, CardGroup, Figure } from "react-bootstrap";
-import face from "../assets/face.jpg";
+import aswathy from "../assets/aswathy.jpg";
 import { BsBriefcaseFill } from "react-icons/bs";
 import { HiAcademicCap } from "react-icons/hi";
 import { HiSupport } from "react-icons/hi";
@@ -14,7 +14,13 @@ const About = () => {
             {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
 
             <Figure>
-              <Figure.Image width={300} height={300} alt="171x180" src={face} />
+              <Figure.Image
+                className="profilePhoto"
+                width={300}
+                height={300}
+                alt="171x180"
+                src={aswathy}
+              />
             </Figure>
           </Card>
 
