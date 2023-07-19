@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import face from "../assets/face.jpg";
+import aswathy from "../assets/aswathy.jpg";
 
 import { Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
@@ -42,13 +42,13 @@ const Home = () => {
           <Card className="homeCard">
             <Card.Body>
               <Card.Title className="cardTitle">Aswathy E G</Card.Title>
-              <MoreAbout />
-              {/* <Card.Text>
+              {/* <MoreAbout /> */}
+              <Card.Text>
                 Hi, I'm a front end developer. Over the past 2 years experience
-                in development, I have done a handful of projects in React. I am
-                doing reguler cotributions to Github.Sharing my technical
-                knowledge in Medium is my other interest.
-              </Card.Text> */}
+                in development, I have done a handful of projects in React.
+                <br></br> I am doing reguler cotributions to Github.Sharing my
+                technical knowledge in Medium is my other interest.
+              </Card.Text>
             </Card.Body>
             {/* <div>
               <Badge pill bg="info">
@@ -59,7 +59,13 @@ const Home = () => {
           <Card className="homeCard">
             {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
             <Figure>
-              <Figure.Image width={371} height={380} alt="171x180" src={face} />
+              <Figure.Image
+                className="profilePhoto"
+                width={371}
+                height={380}
+                alt="171x180"
+                src={aswathy}
+              />
             </Figure>
           </Card>
         </CardGroup>
