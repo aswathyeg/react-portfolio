@@ -68,6 +68,33 @@
     /* font-family:cursive; */
     /* background: #FFDDE1!important */
 }
+.smallCards{
+    color: gray;
+}
+.specialCards{
+    border-radius: 15px 50px !important;
+    background: black!important;
+    padding: 5px !important;
+    width: 100px !important;
+    margin: 10px !important;
+    height: 150px !important;
+    color:white!important;
+}
+.titleCard{
+    
+   text-align: center !important;
+
+
+}
+.profilePhoto{
+    border-radius: 15px 50px !important;
+   
+    /* padding: 5px !important; */
+    width: 300px !important;
+    /* margin: 10px !important; */
+    height: 300px !important;
+    
+}
 .navbrand{
     font-size: medium!important;
     /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; */
