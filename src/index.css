@@ -45,17 +45,28 @@
 }
 .navbarStyle{
     height: 80px;
-    background:white!important
+    background:white!important;
 }
 .homeContainer{
     
     
 }
+.carouselClass{
+    
+   background-color: black!important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1) !important;
+  
+}
+
 .homediv{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+   
     /* height: 100vh; */
     /* background-color: linear-gradient(to right,#FFDDE1, white)!important */
 }
@@ -69,16 +80,16 @@
     /* background: #FFDDE1!important */
 }
 .smallCards{
-    color: gray;
+    color: white;
 }
 .specialCards{
     border-radius: 15px 50px !important;
-    background: black!important;
+    background: rgb(189, 186, 186)!important;
     padding: 5px !important;
     width: 100px !important;
     margin: 10px !important;
     height: 150px !important;
-    color:white!important;
+    color:black!important;
 }
 .titleCard{
     
