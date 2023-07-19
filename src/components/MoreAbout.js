@@ -23,9 +23,9 @@ function MoreAbout() {
               Hi, I'm a front end developer.
               <br></br> Over the past 2 years of experience in development, I
               have done a handful of projects in React.
-              <br></br> I am doing regular contributions to Github.
+              {/* <br></br> I am doing regular contributions to Github.
               <br></br> Sharing my technical knowledge in Medium is my other
-              interest.
+              interest. */}
             </Card>
           </div>
         </Collapse>
