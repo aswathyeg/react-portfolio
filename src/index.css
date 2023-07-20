@@ -30,7 +30,7 @@
 .m-auto{
     display: flex;
     justify-content: space-between;
-    flex: 0.5;
+    flex: 0.7;
     cursor: pointer;
     /* color: #00CDAC; */
     font-size: medium;
@@ -47,6 +47,9 @@
     height: 80px;
     background:white!important;
 }
+/* .homeContainer{
+    margin-bottom: 10%!important;
+} */
 .worksContainer{
    margin-top: 5%!important; 
     
@@ -63,6 +66,8 @@
   
   
 }
+/* .carousel-indicators li {
+    display:none; } */
 /*ngb-carousel:focus {
     outline: none !important;
 }
@@ -91,10 +96,11 @@
 }
 .smallCards{
     color: white;
+
 }
 .specialCards{
     border-radius: 15px 50px !important;
-    background: rgb(189, 186, 186)!important;
+    background: grey!important;
     padding: 5px !important;
     width: 100px !important;
     margin: 10px !important;
@@ -169,5 +175,9 @@ margin-top: 2%;
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
+}
+.footer{
+    color: grey!important;
+    text-decoration: none !important;
 }
 
