@@ -20,10 +20,12 @@ function MoreAbout() {
         <Collapse in={open} dimension="width">
           <div id="example-collapse-text">
             <Card body style={{ width: "400px" }}>
-              Hi, I'm a front end developer. Over the past 2 years of experience
-              in development, I have done a handful of projects in React. I am
-              doing regular contributions to Github.Sharing my technical
-              knowledge in Medium is my other interest.
+              Hi, I'm a front end developer.
+              <br></br> Over the past 2 years of experience in development, I
+              have done a handful of projects in React.
+              {/* <br></br> I am doing regular contributions to Github.
+              <br></br> Sharing my technical knowledge in Medium is my other
+              interest. */}
             </Card>
           </div>
         </Collapse>

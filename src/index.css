@@ -45,17 +45,38 @@
 }
 .navbarStyle{
     height: 80px;
-    background:white!important
+    background:white!important;
 }
-.homeContainer{
-    
+.worksContainer{
+   margin-top: 5%!important; 
     
 }
+/* .carouselClass{
+    
+   background-color: black!important;
+   border: none !important;
+   border: none !important;
+} */
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1) !important;
+  
+  
+}
+/*ngb-carousel:focus {
+    outline: none !important;
+}
+.carousel .slide{
+    background: #ff442e!important;
+    
+} */
+
 .homediv{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+   
     /* height: 100vh; */
     /* background-color: linear-gradient(to right,#FFDDE1, white)!important */
 }
@@ -67,6 +88,33 @@
     font-size: medium;
     /* font-family:cursive; */
     /* background: #FFDDE1!important */
+}
+.smallCards{
+    color: white;
+}
+.specialCards{
+    border-radius: 15px 50px !important;
+    background: rgb(189, 186, 186)!important;
+    padding: 5px !important;
+    width: 100px !important;
+    margin: 10px !important;
+    height: 150px !important;
+    color:black!important;
+}
+.titleCard{
+    
+   text-align: center !important;
+
+
+}
+.profilePhoto{
+    border-radius: 15px 50px !important;
+   
+    /* padding: 5px !important; */
+    width: 300px !important;
+    /* margin: 10px !important; */
+    height: 300px !important;
+    
 }
 .navbrand{
     font-size: medium!important;

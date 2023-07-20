@@ -1,35 +1,62 @@
 import React from "react";
-
+import { Container, Card, CardGroup, Figure } from "react-bootstrap";
+import aswathy from "../assets/aswathy.jpg";
+import { BsBriefcaseFill } from "react-icons/bs";
+import { HiAcademicCap } from "react-icons/hi";
+import { HiSupport } from "react-icons/hi";
 const About = () => {
   return (
     <div name="about" id="about">
-      About
-      {/* <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className=" py-16 rounded-md bg-cyan-800 flex flex-col justify-center items-center w-4/6">
-          <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8 mb-4">
-            <div className="sm:text-right pb-8 pl-4">
-              <p className="text-4xl font-bold inline border-b-4 border-cyan-500">
-                About
-              </p>
-            </div>
-            <div></div>
-          </div>
-          <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-            <div className="sm:text-right text-4xl font-bold">
-              <p>
-                Hi. I'm Aswathy, nice to meet you. Please take a look around.
-              </p>
-            </div>
-            <div>
-              <p>
-                {" "}
-                A front end developer.Currently focussing on developing UI with
-                React. I would like to work with teams with...
-              </p>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      <Container className="homeContainer">
+        <Card.Title className="titleCard">About</Card.Title>
+        <CardGroup className="homeCard">
+          <Card className="homeCard">
+            {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
+
+            <Figure>
+              <Figure.Image
+                className="profilePhoto"
+                width={300}
+                height={300}
+                alt="171x180"
+                src={aswathy}
+              />
+            </Figure>
+          </Card>
+
+          <Card className="specialCards">
+            <BsBriefcaseFill />
+            <Card.Body>
+              <Card.Title>Experience</Card.Title>
+              <Card.Text className="smallCards">2+ years</Card.Text>
+            </Card.Body>
+            {/* <Card.Footer>
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </Card.Footer> */}
+          </Card>
+          <Card className="specialCards">
+            <HiAcademicCap />
+
+            <Card.Body>
+              <Card.Title>Education</Card.Title>
+              <Card.Text className="smallCards">MCA</Card.Text>
+            </Card.Body>
+            {/* <Card.Footer>
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </Card.Footer> */}
+          </Card>
+          <Card className="specialCards">
+            <HiSupport />
+            <Card.Body>
+              <Card.Title>Support</Card.Title>
+              <Card.Text className="smallCards">Online</Card.Text>
+            </Card.Body>
+            {/* <Card.Footer>
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </Card.Footer> */}
+          </Card>
+        </CardGroup>
+      </Container>
     </div>
   );
 };
