@@ -47,19 +47,29 @@
     height: 80px;
     background:white!important;
 }
-.homeContainer{
+/* .homeContainer{
     
     
-}
-.carouselClass{
+} */
+/* .carouselClass{
     
    background-color: black!important;
-}
+   border: none !important;
+   border: none !important;
+} */
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1) !important;
   
+  
 }
+/*ngb-carousel:focus {
+    outline: none !important;
+}
+.carousel .slide{
+    background: #ff442e!important;
+    
+} */
 
 .homediv{
     display: flex;
