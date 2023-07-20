@@ -8,32 +8,34 @@ import bodhii from "../assets/bodhii.jpg";
 const Works = () => {
   return (
     <div>
-      <Card.Title className="titleCard">Works</Card.Title>
-      <Carousel interval={null} variant="dark" className="carouselClass">
-        <Carousel.Item>
-          <img className="d-block w-100" src={bodhii} alt="First slide" />
-          {/* <Carousel.Caption className="WorksCarousal">
+      <Container className="worksContainer">
+        <Card.Title className="titleCard">Works</Card.Title>
+        <Carousel interval={null} variant="dark" className="carouselClass">
+          <Carousel.Item>
+            <img className="d-block w-100" src={bodhii} alt="First slide" />
+            {/* <Carousel.Caption className="WorksCarousal">
             <h3>Bodhii</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption> */}
-        </Carousel.Item>
-        <Carousel.Item interval={100000}>
-          <img className="d-block w-100" src={bodhii} alt="Second slide" />
-          {/* <Carousel.Caption className="WorksCarousal">
+          </Carousel.Item>
+          <Carousel.Item interval={100000}>
+            <img className="d-block w-100" src={bodhii} alt="Second slide" />
+            {/* <Carousel.Caption className="WorksCarousal">
             <h3>Papyrus</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption> */}
-        </Carousel.Item>
-        <Carousel.Item interval={100000}>
-          <img className="d-block w-100" src={bodhii} alt="Third slide" />
-          {/* <Carousel.Caption className="WorksCarousal">
+          </Carousel.Item>
+          <Carousel.Item interval={100000}>
+            <img className="d-block w-100" src={bodhii} alt="Third slide" />
+            {/* <Carousel.Caption className="WorksCarousal">
             <h3>Shopping </h3>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption> */}
-        </Carousel.Item>
-      </Carousel>
+          </Carousel.Item>
+        </Carousel>
+      </Container>
     </div>
   );
 };
