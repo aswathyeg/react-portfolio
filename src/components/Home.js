@@ -13,7 +13,8 @@ import { AiFillGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Works from "./Works";
 import About from "./About";
-import MoreAbout from "./MoreAbout";
+import MoreAbout from "./MoreAboutButton";
+import Footer from "./Footer";
 const Home = () => {
   // const handleClickScroll = () => {
   //   const element = document.getElementById("section-1");
@@ -107,6 +108,7 @@ const Home = () => {
         <About />
 
         <Works />
+        <Footer />
       </Container>
     </div>
   );
