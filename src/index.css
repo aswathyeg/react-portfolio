@@ -54,6 +54,9 @@
    margin-top: 5%!important; 
     
 }
+.progressbarContainer{
+    margin-top: 3%!important; 
+}
 /* .carouselClass{
     
    background-color: black!important;
@@ -65,6 +68,10 @@
   filter: invert(1) !important;
   
   
+}
+.progressBar{
+   
+   
 }
 /* .carousel-indicators li {
     display:none; } */
