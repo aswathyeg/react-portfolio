@@ -15,6 +15,7 @@ import Works from "./Works";
 import About from "./About";
 import MoreAbout from "./MoreAboutButton";
 import Footer from "./Footer";
+import Skills from "./Skills";
 const Home = () => {
   // const handleClickScroll = () => {
   //   const element = document.getElementById("section-1");
@@ -67,7 +68,7 @@ const Home = () => {
           </Nav> */}
           <Card className="homeCard">
             <Card.Body>
-              <Card.Title className="cardTitle">Aswathy E G</Card.Title>
+              <Card.Title className="titleCard">Aswathy E G</Card.Title>
 
               {/* <MoreAbout /> */}
               <Card.Text>
@@ -108,6 +109,7 @@ const Home = () => {
         <About />
 
         <Works />
+        <Skills />
         <Footer />
       </Container>
     </div>
