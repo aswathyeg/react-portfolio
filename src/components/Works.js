@@ -8,7 +8,7 @@ import bodhii from "../assets/bodhii.jpg";
 const Works = () => {
   return (
     <div>
-      <Container className="worksContainer">
+      <Container className="subComponentsContainer">
         <Card.Title className="titleCard">Works</Card.Title>
         <Carousel interval={null} variant="dark" className="carouselClass">
           <Carousel.Item>
