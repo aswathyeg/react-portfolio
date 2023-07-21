@@ -7,8 +7,19 @@ import { HiSupport } from "react-icons/hi";
 const About = () => {
   return (
     <div name="about" id="about">
-      <Container className="homeContainer">
-        <Card.Title className="titleCard">About</Card.Title>
+      <Container className="subComponentsContainer">
+        <Card.Body>
+          {/* <Card.Title className="cardTitle">Aswathy E G</Card.Title> */}
+
+          {/* <MoreAbout /> */}
+          <Card.Text>
+            Hi, I'm a front end developer. Over the past 2 years experience in
+            development, I have done a handful of projects in React.
+            <br></br> I am doing reguler cotributions to Github.Sharing my
+            technical knowledge in Medium is my other interest.
+          </Card.Text>
+          <br></br>
+        </Card.Body>
         <CardGroup className="homeCard">
           <Card className="homeCard">
             {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
