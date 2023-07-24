@@ -8,15 +8,10 @@ const About = (props) => {
   return (
     <div name="about" id="about">
       <Container className="subComponentsContainer">
-        <Card.Body
-        // onChange={() => {
-        //   setTitle(false);
-        // }}
-        >
+        <Card.Body>
           {props.text ? (
             <Card.Title className="titleCard">About</Card.Title>
           ) : null}
-          {/* <Card.Title className="titleCard">About</Card.Title> */}
 
           {/* <MoreAbout /> */}
           {!props.text ? (
@@ -35,16 +30,17 @@ const About = (props) => {
         <CardGroup className="homeCard">
           <Card className="homeCard">
             {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
-
-            <Figure>
-              <Figure.Image
-                className="profilePhoto"
-                width={300}
-                height={300}
-                alt="171x180"
-                src={aswathy}
-              />
-            </Figure>
+            {!props.text ? (
+              <Figure>
+                <Figure.Image
+                  className="profilePhoto"
+                  width={300}
+                  height={300}
+                  alt="171x180"
+                  src={aswathy}
+                />
+              </Figure>
+            ) : null}
           </Card>
 
           <Card className="specialCards">
