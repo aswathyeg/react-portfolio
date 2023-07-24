@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import aswathy from "../assets/aswathy.jpg";
@@ -17,6 +17,8 @@ import MoreAbout from "./MoreAboutButton";
 import Footer from "./Footer";
 import Skills from "./Skills";
 const Home = () => {
+  const [cardText, setCardText] = useState(true);
+
   // const handleClickScroll = () => {
   //   const element = document.getElementById("section-1");
   //   if (element) {
@@ -106,7 +108,7 @@ const Home = () => {
         <div id="section-1">
           <About />
         </div> */}
-        <About />
+        <About text={cardText} />
 
         <Works />
         <Skills />
