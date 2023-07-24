@@ -1,24 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Card, CardGroup, Figure } from "react-bootstrap";
 import aswathy from "../assets/aswathy.jpg";
 import { BsBriefcaseFill } from "react-icons/bs";
 import { HiAcademicCap } from "react-icons/hi";
 import { HiSupport } from "react-icons/hi";
-const About = () => {
+const About = (props) => {
   return (
     <div name="about" id="about">
       <Container className="subComponentsContainer">
-        <Card.Body>
-          <Card.Title className="titleCard">About</Card.Title>
+        <Card.Body
+        // onChange={() => {
+        //   setTitle(false);
+        // }}
+        >
+          {props.text ? (
+            <Card.Title className="titleCard">About</Card.Title>
+          ) : null}
+          {/* <Card.Title className="titleCard">About</Card.Title> */}
 
           {/* <MoreAbout /> */}
-          {/* <Card.Text>
-            Hi, I'm a front end developer. Over the past 2 years experience in
-            development, I have done a handful of projects in React.
-            <br></br> I am doing reguler cotributions to Github.Sharing my
-            technical knowledge in Medium is my other interest.
-          </Card.Text>
-          <br></br> */}
+          {!props.text ? (
+            <div>
+              <Card.Text>
+                Hi, I'm a front end developer. Over the past 2 years experience
+                in development, I have done a handful of projects in React.
+                <br></br> I am doing reguler cotributions to Github.Sharing my
+                technical knowledge in Medium is my other interest.
+              </Card.Text>
+              <br></br>
+            </div>
+          ) : null}
+          {/*  */}
         </Card.Body>
         <CardGroup className="homeCard">
           <Card className="homeCard">
