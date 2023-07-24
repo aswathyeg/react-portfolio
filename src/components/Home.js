@@ -74,8 +74,7 @@ const Home = () => {
 
               {/* <MoreAbout /> */}
               <Card.Text>
-                Hi, I'm a front end developer. Over the past 2 years experience
-                in development, I have done a handful of projects in React.
+                Front End Developer
                 {/* <br></br> I am doing reguler cotributions to Github.Sharing my
                 technical knowledge in Medium is my other interest. */}
               </Card.Text>
