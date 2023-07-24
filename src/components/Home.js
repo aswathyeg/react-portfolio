@@ -73,7 +73,7 @@ const Home = () => {
               <Card.Title className="titleCard">Aswathy E G</Card.Title>
 
               {/* <MoreAbout /> */}
-              <Card.Text>
+              <Card.Text className="homeSmallCards">
                 Front End Developer
                 {/* <br></br> I am doing reguler cotributions to Github.Sharing my
                 technical knowledge in Medium is my other interest. */}
