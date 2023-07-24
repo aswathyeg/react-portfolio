@@ -62,7 +62,11 @@ const About = (props) => {
 
             <Card.Body>
               <Card.Title>Education</Card.Title>
-              <Card.Text className="smallCards">MCA</Card.Text>
+              <Card.Text
+                className={props.text ? "homeSmallCards" : "smallCards"}
+              >
+                MCA
+              </Card.Text>
             </Card.Body>
             {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
@@ -72,7 +76,11 @@ const About = (props) => {
             <HiSupport />
             <Card.Body>
               <Card.Title>Support</Card.Title>
-              <Card.Text className="smallCards">Online</Card.Text>
+              <Card.Text
+                className={props.text ? "homeSmallCards" : "smallCards"}
+              >
+                Online
+              </Card.Text>
             </Card.Body>
             {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
