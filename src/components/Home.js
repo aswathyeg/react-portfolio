@@ -74,7 +74,9 @@ const Home = () => {
 
               {/* <MoreAbout /> */}
               <Card.Text className="homeSmallCards">
-                I am a Bangalore based Front End Developer. Let's work together.
+                I Am A Bangalore Based Front End Developer. Interested To
+                Develop Impactful User Interfaces That Speak Volumes.
+                <br></br> Let's Work Together.
                 {/* <br></br> I am doing reguler cotributions to Github.Sharing my
                 technical knowledge in Medium is my other interest. */}
               </Card.Text>
