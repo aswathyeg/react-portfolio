@@ -43,32 +43,44 @@ const About = (props) => {
             ) : null}
           </Card>
 
-          <Card className="specialCards">
+          <Card className={props.text ? "homeSpecialCards" : "specialCards"}>
             <BsBriefcaseFill />
             <Card.Body>
               <Card.Title>Experience</Card.Title>
-              <Card.Text className="smallCards">2+ years</Card.Text>
+              <Card.Text
+                className={props.text ? "homeSmallCards" : "smallCards"}
+              >
+                2+ years
+              </Card.Text>
             </Card.Body>
             {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer> */}
           </Card>
-          <Card className="specialCards">
+          <Card className={props.text ? "homeSpecialCards" : "specialCards"}>
             <HiAcademicCap />
 
             <Card.Body>
               <Card.Title>Education</Card.Title>
-              <Card.Text className="smallCards">MCA</Card.Text>
+              <Card.Text
+                className={props.text ? "homeSmallCards" : "smallCards"}
+              >
+                MCA
+              </Card.Text>
             </Card.Body>
             {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer> */}
           </Card>
-          <Card className="specialCards">
+          <Card className={props.text ? "homeSpecialCards" : "specialCards"}>
             <HiSupport />
             <Card.Body>
               <Card.Title>Support</Card.Title>
-              <Card.Text className="smallCards">Online</Card.Text>
+              <Card.Text
+                className={props.text ? "homeSmallCards" : "smallCards"}
+              >
+                Online
+              </Card.Text>
             </Card.Body>
             {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>

@@ -105,14 +105,27 @@
     color: white;
 
 }
+.homeSmallCards{
+    color: grey;
+}
 .specialCards{
     border-radius: 15px 50px !important;
-    background: grey!important;
+    background: #c0c0c0!important;
     padding: 5px !important;
     width: 100px !important;
     margin: 10px !important;
     height: 150px !important;
     color:black!important;
+}
+.homeSpecialCards{
+    border: none!important;
+    /* position: relative !important;
+    left: -200px !important; */
+
+    display: flex;
+    justify-content: space-between;
+    flex: 50 !important;
+   
 }
 .titleCard{
     

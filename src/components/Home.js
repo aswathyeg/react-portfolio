@@ -70,12 +70,13 @@ const Home = () => {
           </Nav> */}
           <Card className="homeCard">
             <Card.Body>
-              <Card.Title className="titleCard">Aswathy E G</Card.Title>
+              <Card.Title> Hi there, I'm Aswathy</Card.Title>
 
               {/* <MoreAbout /> */}
-              <Card.Text>
-                Hi, I'm a front end developer. Over the past 2 years experience
-                in development, I have done a handful of projects in React.
+              <Card.Text className="homeSmallCards">
+                I Am A Bangalore Based Front End Developer. Interested To
+                Develop Impactful User Interfaces That Speak Volumes.
+                <br></br> Let's Work Together.
                 {/* <br></br> I am doing reguler cotributions to Github.Sharing my
                 technical knowledge in Medium is my other interest. */}
               </Card.Text>
@@ -112,7 +113,6 @@ const Home = () => {
 
         <Works />
         <Skills />
-        <Footer />
       </Container>
     </div>
   );
