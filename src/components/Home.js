@@ -70,11 +70,11 @@ const Home = () => {
           </Nav> */}
           <Card className="homeCard">
             <Card.Body>
-              <Card.Title className="titleCard">Aswathy E G</Card.Title>
+              <Card.Title> Hi there, I'm Aswathy</Card.Title>
 
               {/* <MoreAbout /> */}
               <Card.Text className="homeSmallCards">
-                Front End Developer
+                I am a Bangalore based Front End Developer. Let's work together.
                 {/* <br></br> I am doing reguler cotributions to Github.Sharing my
                 technical knowledge in Medium is my other interest. */}
               </Card.Text>
@@ -111,7 +111,6 @@ const Home = () => {
 
         <Works />
         <Skills />
-        <Footer />
       </Container>
     </div>
   );
