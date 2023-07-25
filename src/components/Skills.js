@@ -11,7 +11,7 @@ const Skills = () => {
   const bootstrapPercentage = 50;
   const cypressPercentage = 60;
   return (
-    <div>
+    <div className="subComponentsContainer">
       <Card.Title className="titleCard">Skills</Card.Title>
       <Container className="progressbarContainer">
         <div className="progressBar">
