@@ -27,6 +27,10 @@
 /* .App {
     background-color: linear-gradient(to right,#FFDDE1, white)!important
   } */
+
+  @import url('https://fonts.googleapis.com/css2?family=Aubrey&family=Kurale&display=swap');
+
+
 .m-auto{
     display: flex;
     justify-content: space-between;
@@ -54,8 +58,12 @@
    margin-top: 5%!important; 
     
 }
+
 .progressbarContainer{
     margin-top: 3%!important; 
+}
+.contactDiv{
+    margin-right: 300px;
 }
 /* .carouselClass{
     
@@ -72,6 +80,9 @@
 .progressBar{
    
    
+}
+.aboutText{
+    color: black;
 }
 /* .carousel-indicators li {
     display:none; } */
@@ -101,12 +112,28 @@
     /* font-family:cursive; */
     /* background: #FFDDE1!important */
 }
+.ContactCard{
+    border: none!important;
+
+
+}
+.form-control:focus{
+    border-color:black!important;
+    box-shadow: none!important;
+  }
 .smallCards{
     color: white;
+    font-size: large;
+      font-family: 'Kurale', serif;
 
 }
 .homeSmallCards{
-    color: grey;
+     color: grey !important;
+     font-size: large;
+     font-family: 'Kurale', serif;
+     /* width: 600px !important; */
+
+
 }
 .specialCards{
     border-radius: 15px 50px !important;
@@ -132,6 +159,12 @@
    text-align: center !important;
 
 
+}
+.contactIcons{
+    margin-top: 400px;
+    display: flex;
+
+    justify-content: space-around;
 }
 .profilePhoto{
     border-radius: 15px 50px !important;
@@ -199,5 +232,11 @@ margin-top: 2%;
 .footer{
     color: grey!important;
     text-decoration: none !important;
+}
+.footerClass{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
