@@ -8,7 +8,7 @@ import CardGroup from "react-bootstrap/CardGroup";
 import Badge from "react-bootstrap/Badge";
 import Figure from "react-bootstrap/Figure";
 import { AiFillLinkedin } from "react-icons/ai";
-import { AiTwotoneMail } from "react-icons/ai";
+import { BsMedium } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import Works from "./Works";
@@ -38,7 +38,7 @@ const Home = () => {
           />
         </Nav.Link>
         <Nav.Link eventKey="link-1">
-          <AiTwotoneMail color="black" />
+          <BsMedium color="black" />
         </Nav.Link>
         <Nav.Link eventKey="link-2">
           <AiFillGithub
@@ -74,8 +74,9 @@ const Home = () => {
 
               {/* <MoreAbout /> */}
               <Card.Text className="homeSmallCards">
-                I Am A Bangalore Based Front End Developer. Interested To
-                Develop Impactful User Interfaces That Speak Volumes.
+                I Am A Bangalore Based Front End Developer.
+                <br></br> Interested In Developing Impactful User Interfaces
+                That Speak Volumes.
                 <br></br> Let's Work Together.
                 {/* <br></br> I am doing reguler cotributions to Github.Sharing my
                 technical knowledge in Medium is my other interest. */}
