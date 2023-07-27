@@ -56,6 +56,8 @@
 } */
 .subComponentsContainer{
    margin-top: 5%!important; 
+   /* padding-bottom:150px; */
+   /* min-height: 50vh; */
     
 }
 
@@ -161,7 +163,7 @@
 
 }
 .contactIcons{
-    margin-top: 400px;
+    margin-top: 200px;
     display: flex;
 
     justify-content: space-around;
@@ -169,10 +171,17 @@
 .profilePhoto{
     border-radius: 15px 50px !important;
    
-    /* padding: 5px !important; */
-    width: 300px !important;
-    /* margin: 10px !important; */
+        width: 300px !important;
+    
     height: 300px !important;
+
+
+
+
+    /* border-radius: 104px;
+background: #e0e0e0; */
+/* box-shadow: inset 5px 5px 10px #656565,
+            inset -5px -5px 10px #ffffff; */
     
 }
 .navbrand{
@@ -229,6 +238,12 @@ margin-top: 2%;
     transform: translateY(-50%);
     bottom: initial;
 }
+.formCheck{
+    color: black;
+}
+input[type=checkbox]{
+    accent-color: black;
+}
 .footer{
     color: grey!important;
     text-decoration: none !important;
@@ -238,5 +253,23 @@ margin-top: 2%;
     left: 0;
     bottom: 0;
     right: 0;
+    height:auto;
+    padding: 1rem;
 }
-
+/* footer {
+    background-color: white;
+    position:fixed;
+    height:auto;
+    bottom:0;
+    left:0;
+    border: 1px solid;
+    padding: 1rem;
+    color: white;
+  }
+ */
+/* footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }  */
+ 
+  
