@@ -19,8 +19,12 @@ const About = (props) => {
               <Card.Text className="homeSmallCards">
                 Hi, I'm a front end developer. Over the past 2 years experience
                 in development, I have done a handful of projects in React.
-                <br></br> I am doing regular contributions to Github.Sharing my
-                technical knowledge in{" "}
+                <br></br> I am doing regular contributions to{" "}
+                <a href="https://github.com/aswathyeg" className="aboutText">
+                  {" "}
+                  Github
+                </a>
+                . Sharing my technical knowledge in{" "}
                 <a href="https://medium.com/" className="aboutText">
                   {" "}
                   Medium{" "}
