@@ -58,7 +58,10 @@ const Contact = () => {
               />
             </Nav.Link>
             <Nav.Link eventKey="link-1">
-              <BsMedium color="black" />
+              <BsMedium
+                onClick={() => window.open("https://aswathyeg.medium.com/")}
+                color="black"
+              />
             </Nav.Link>
             <Nav.Link eventKey="link-2">
               <AiFillGithub
