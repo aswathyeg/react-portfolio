@@ -38,7 +38,10 @@ const Home = () => {
           />
         </Nav.Link>
         <Nav.Link eventKey="link-1">
-          <BsMedium color="black" />
+          <BsMedium
+            onClick={() => window.open("https://aswathyeg.medium.com/")}
+            color="black"
+          />
         </Nav.Link>
         <Nav.Link eventKey="link-2">
           <AiFillGithub
@@ -49,44 +52,20 @@ const Home = () => {
       </Nav>
       <Container className="homeContainer">
         <CardGroup className="homeCard">
-          {/* <Nav className="flex-column">
-            <Nav.Link>
-              <AiFillLinkedin
-                onClick={() =>
-                  window.open("https://www.linkedin.com/in/aswathyeg/")
-                }
-                color="black"
-              />
-            </Nav.Link>
-            <Nav.Link eventKey="link-1">
-              <AiTwotoneMail color="black" />
-            </Nav.Link>
-            <Nav.Link eventKey="link-2">
-              <AiFillGithub
-                color="black"
-                onClick={() => window.open("https://github.com/aswathyeg")}
-              />
-            </Nav.Link>
-          </Nav> */}
           <Card className="homeCard">
             <Card.Body>
               <Card.Title> Hi there, I'm Aswathy</Card.Title>
 
               {/* <MoreAbout /> */}
+
+              {/* make text responsive*/}
               <Card.Text className="homeSmallCards">
                 I Am A Bangalore Based Front End Developer.
                 <br></br> Interested In Developing Impactful User Interfaces
                 That Speak Volumes.
                 <br></br> Let's Work Together.
-                {/* <br></br> I am doing reguler cotributions to Github.Sharing my
-                technical knowledge in Medium is my other interest. */}
               </Card.Text>
             </Card.Body>
-            {/* <div>
-              <Badge pill bg="info">
-                About Me
-              </Badge>{" "}
-            </div> */}
           </Card>
           <Card className="homeCard">
             {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
@@ -102,14 +81,6 @@ const Home = () => {
           </Card>
         </CardGroup>
 
-        {/* <div>
-          <button className="btn-scroll" onClick={handleClickScroll}>
-            Scroll Down
-          </button>
-        </div>
-        <div id="section-1">
-          <About />
-        </div> */}
         <About text={cardText} />
 
         <Works />
