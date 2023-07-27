@@ -83,7 +83,7 @@ const Home = () => {
 
         <About text={cardText} />
 
-        <Works />
+        <Works text={cardText} />
         <Skills />
       </Container>
     </div>

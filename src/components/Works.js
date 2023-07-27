@@ -6,11 +6,13 @@ import Col from "react-bootstrap/Col";
 import Carousel from "react-bootstrap/Carousel";
 import bodhii from "../assets/bodhii.jpg";
 import githubScreenshot from "../assets/githubScreenshot.jpg";
-const Works = () => {
+const Works = (props) => {
   return (
-    <div>
+    <div className={!props.text ? "homeContainer" : "null"}>
       <Container className="subComponentsContainer">
-        <Card.Title className="titleCard">Works</Card.Title>
+        {props.text ? (
+          <Card.Title className="titleCard">Works</Card.Title>
+        ) : null}
         <Carousel
           interval={null}
           variant="dark"
