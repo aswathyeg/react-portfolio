@@ -171,10 +171,17 @@
 .profilePhoto{
     border-radius: 15px 50px !important;
    
-    /* padding: 5px !important; */
-    width: 300px !important;
-    /* margin: 10px !important; */
+        width: 300px !important;
+    
     height: 300px !important;
+
+
+
+
+    /* border-radius: 104px;
+background: #e0e0e0; */
+/* box-shadow: inset 5px 5px 10px #656565,
+            inset -5px -5px 10px #ffffff; */
     
 }
 .navbrand{
@@ -264,3 +271,5 @@ input[type=checkbox]{
     grid-row-start: 2;
     grid-row-end: 3;
   }  */
+ 
+  
