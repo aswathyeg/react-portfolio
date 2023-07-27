@@ -6,7 +6,7 @@ import { HiAcademicCap } from "react-icons/hi";
 import { HiSupport } from "react-icons/hi";
 const About = (props) => {
   return (
-    <div name="about" id="about">
+    <div className={!props.text ? "homeContainer" : "null"}>
       <Container className="subComponentsContainer">
         <Card.Body>
           {props.text ? (
