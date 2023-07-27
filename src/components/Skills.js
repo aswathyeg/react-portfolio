@@ -1,7 +1,8 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { CardGroup, Container } from "react-bootstrap";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import Card from "react-bootstrap/Card";
+import Form from "react-bootstrap/Form";
 const Skills = () => {
   const htmlPercentage = 70;
   const cssPercentage = 60;
@@ -84,6 +85,26 @@ const Skills = () => {
           />
         </div>
       </Container>
+      <Card className="homeCard">
+        <Form>
+          {["checkbox", "radio"].map((type) => (
+            <div key={`default-${type}`} className="mb-3">
+              <Form.Check // prettier-ignore
+                type={type}
+                id={`default-${type}`}
+                label={`default ${type}`}
+              />
+
+              <Form.Check
+                disabled
+                type={type}
+                label={`disabled ${type}`}
+                id={`disabled-default-${type}`}
+              />
+            </div>
+          ))}
+        </Form>
+      </Card>
     </div>
   );
 };
