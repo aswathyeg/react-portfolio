@@ -152,15 +152,19 @@ display: flex;
 
 .homeSmallCards {
     color: grey !important;
-    font-size: large;
+    font-size: 20px;
     font-family: 'Kurale', serif;
+    
     /* text-align: center!important;
     align-items: center!important; */
     /* width: 600px !important; */
 
 
 }
-
+.worksCards{
+    display: flex;
+    /* flex: auto !important; */
+}
 .specialCards {
     border-radius: 15px 50px !important;
     background: #c0c0c0 !important;
@@ -199,7 +203,13 @@ display: flex;
       text-align: center!important;
       
 }
-      
+  .worksCard1{
+      box-shadow: 5px 10px!important;
+    width :500px;
+    height:300px !important;
+    align-items: center !important;
+    border-radius: 15px!important;
+  }    
  
 
 .card1{
@@ -294,6 +304,8 @@ background: #e0e0e0; */
     background: -webkit-linear-gradient(#eee, #120f0f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
+ 
 }
 .worksCard {
     display: flex;
