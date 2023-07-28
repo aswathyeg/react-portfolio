@@ -213,7 +213,7 @@ display: flex;
  
 
 .card1{
-    box-shadow: 20px 20px 10px grey!important;
+    box-shadow: 2.5px 2.5px 1px grey!important;
     width :200px;
     height:150px !important;
     align-items: center !important;
