@@ -54,7 +54,7 @@ const About = (props) => {
           <div className="about">
             <div class="m-4">
               <Card className="card1">
-                <BsBriefcaseFill />
+                {/* <BsBriefcaseFill /> */}
                 <Card.Body>
                   <Card.Title>Experience</Card.Title>
                   <Card.Text
@@ -70,7 +70,7 @@ const About = (props) => {
             </div>
             <div class="m-4">
               <Card className="card1">
-                <HiAcademicCap />
+                {/* <HiAcademicCap /> */}
 
                 <Card.Body>
                   <Card.Title>Education</Card.Title>
@@ -87,7 +87,7 @@ const About = (props) => {
             </div>
             <div class="m-4">
               <Card className="card1">
-                <HiSupport />
+                {/* <HiSupport /> */}
                 <Card.Body>
                   <Card.Title>Support</Card.Title>
                   <Card.Text
