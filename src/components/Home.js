@@ -27,9 +27,9 @@ const Home = () => {
   //   }
   // };
   return (
-    <div className="homeDiv">
+    <div>
       <Nav className="flex-column">
-        <Nav.Link>
+        {/* <Nav.Link>
           <AiFillLinkedin
             onClick={() =>
               window.open("https://www.linkedin.com/in/aswathyeg/")
@@ -48,17 +48,40 @@ const Home = () => {
             color="black"
             onClick={() => window.open("https://github.com/aswathyeg")}
           />
-        </Nav.Link>
+        </Nav.Link> */}
       </Nav>
       <Container className="homeContainer">
         <CardGroup className="homeCard">
           <Card className="homeCard">
-            <Card.Body>
-              <Card.Title> Hi there, I'm Aswathy</Card.Title>
+            <Card.Title> Hi there, I'm Aswathy</Card.Title>
+            <Card.Body className="homeCard">
+              <Nav className="flex-column">
+                <Nav.Link>
+                  <AiFillLinkedin
+                    onClick={() =>
+                      window.open("https://www.linkedin.com/in/aswathyeg/")
+                    }
+                    color="black"
+                  />
+                </Nav.Link>
+                <Nav.Link eventKey="link-1">
+                  <BsMedium
+                    onClick={() => window.open("https://aswathyeg.medium.com/")}
+                    color="black"
+                  />
+                </Nav.Link>
+                <Nav.Link eventKey="link-2">
+                  <AiFillGithub
+                    color="black"
+                    onClick={() => window.open("https://github.com/aswathyeg")}
+                  />
+                </Nav.Link>
+              </Nav>
 
               {/* <MoreAbout /> */}
 
               {/* make text responsive*/}
+              {/* <Card.Title> Hi there, I'm Aswathy</Card.Title> */}
               <Card.Text className="homeSmallCards">
                 I Am A Bangalore Based Front End Developer.
                 <br></br> Interested In Developing Impactful User Interfaces
@@ -68,16 +91,18 @@ const Home = () => {
             </Card.Body>
           </Card>
           <Card className="homeCard">
-            {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
-            <Figure>
-              <Figure.Image
-                className="profilePhoto"
-                width={371}
-                height={380}
-                alt="171x180"
-                src={aswathy}
-              />
-            </Figure>
+            <Card.Body className="homeCard">
+              {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
+              <Figure>
+                <Figure.Image
+                  className="profilePhoto"
+                  // width={371}
+                  // height={380}
+                  alt="171x180"
+                  src={aswathy}
+                />
+              </Figure>
+            </Card.Body>
           </Card>
         </CardGroup>
 
