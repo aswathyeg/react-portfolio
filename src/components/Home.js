@@ -53,7 +53,10 @@ const Home = () => {
       <Container className="homeContainer">
         <CardGroup className="homeCard">
           <Card className="homeCard">
-            <Card.Title> Hi there, I'm Aswathy</Card.Title>
+            <Card.Title className="homeTitle">
+              {" "}
+              Hi there, I'm Aswathy
+            </Card.Title>
             <Card.Body className="homeCard">
               <Nav className="flex-column">
                 <Nav.Link>
