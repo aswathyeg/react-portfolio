@@ -2,7 +2,9 @@ import { Card, Container, CardGroup } from "react-bootstrap";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import bodhii from "../assets/bodhii.jpg";
+import excercise from "../assets/excercise.jpg";
 import ListGroup from "react-bootstrap/ListGroup";
+import githubScreenshot from "../assets/githubScreenshot.jpg";
 function Works(props) {
   return (
     <Container>
@@ -20,28 +22,26 @@ function Works(props) {
               {/* <BsBriefcaseFill /> */}
               <Card.Body>
                 <Card.Title>Bodhii</Card.Title>
-                {/* <Card.Text
+                <Card.Img src={bodhii}></Card.Img>
+                <Card.Text
                   className={props.text ? "homeSmallCards" : "smallCards"}
                 >
-                  2+ years
-                </Card.Text> */}
+                  An E-learning platform
+                </Card.Text>
               </Card.Body>
               {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer> */}
             </Card>
           </div>
+
           <div class="m-4">
             <Card className="worksCard1">
               {/* <HiAcademicCap /> */}
 
               <Card.Body>
-                <Card.Title>Papyrus</Card.Title>
-                {/* <Card.Text
-                  className={props.text ? "homeSmallCards" : "smallCards"}
-                >
-                  MCA
-                </Card.Text> */}
+                <Card.Title>Excercise</Card.Title>
+                <Card.Img src={excercise}></Card.Img>
               </Card.Body>
               {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
@@ -60,6 +60,21 @@ function Works(props) {
           </div> */}
         </div>
       </CardGroup>
+      <br></br>
+      <div className="gitCard">
+        <Card className=" text-white">
+          <Card.Img src={githubScreenshot} alt="Card image" />
+          <Card.ImgOverlay>
+            <Card.Title>Card title</Card.Title>
+            {/* <Card.Text>
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </Card.Text> */}
+            {/* <Card.Text>Last updated 3 mins ago</Card.Text> */}
+          </Card.ImgOverlay>
+        </Card>
+      </div>
     </Container>
   );
 }
