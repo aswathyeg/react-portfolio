@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import aswathy from "../assets/aswathy.jpg";
+import face from "../assets/face.jpg";
 import { Container } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
@@ -99,7 +99,7 @@ const Home = () => {
                   // width={371}
                   // height={380}
                   alt="171x180"
-                  src={aswathy}
+                  src={face}
                 />
               </Figure>
             </Card.Body>
