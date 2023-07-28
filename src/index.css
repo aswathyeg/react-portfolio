@@ -34,7 +34,7 @@
 .m-auto {
     display: flex;
     justify-content: space-between;
-    flex: 0.7;
+    flex: 0.6;
     cursor: pointer;
     /* color: #00CDAC; */
     font-size: medium;
@@ -56,6 +56,7 @@
 
 .homeContainer{
     min-height: 60vh;
+    
 }
 .subComponentsContainer {
     margin-top: 5% !important;
@@ -144,6 +145,8 @@ display: flex;
     color: white;
     font-size: large;
     font-family: 'Kurale', serif;
+    /* text-align: center!important;
+    align-items: center!important;  */
 
 }
 
@@ -151,6 +154,8 @@ display: flex;
     color: grey !important;
     font-size: large;
     font-family: 'Kurale', serif;
+    /* text-align: center!important;
+    align-items: center!important; */
     /* width: 600px !important; */
 
 
@@ -167,15 +172,55 @@ display: flex;
 }
 
 .homeSpecialCards {
-    border: none !important;
-    /* position: relative !important;
-    left: -200px !important; */
-
+    /* border: none !important; */
     display: flex;
     justify-content: space-between;
     flex: 50 !important;
+    border-radius: 15px 15px !important;
+    /* background: hwb(0 75% 25%) !important; */
+    box-shadow: black;
+    padding: 15px !important;
+    width: 100px !important;
+    height:200px !important;
+    /* margin-right: 20px; */
+    margin-bottom: 10px;
+    
+
 
 }
+.about{
+    display: flex;
+      flex:auto;
+      /* border-radius: 15px!important; */
+      /* align-items: center; */
+      /* width: 100px !important; */
+      /* border: none !important; */
+      align-content: center!important;
+      text-align: center!important;
+      
+}
+      
+ 
+
+.card1{
+    box-shadow: 20px 20px 10px grey!important;
+    width :200px;
+    height:150px !important;
+    align-items: center !important;
+    border-radius: 15px!important;
+    background-color: hsl(300, 16%, 94%)!important;
+    /* box-shadow: black!important; */
+   /* justify-content: center; */
+  
+   
+}
+/* .cardText{
+    text-align: center!important;
+    align-items: center !important;
+    align-content: center!important;
+
+} */
+
 
 .titleCard {
 
@@ -192,8 +237,8 @@ display: flex;
 }
 
 .profilePhoto {
-    border-radius: 50%!important;
-
+    border-radius: 20%!important;
+    box-shadow:  20px 20px 50px grey!important;
     width: 300px !important;
 
     height: 300px !important;
