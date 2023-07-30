@@ -51,55 +51,61 @@ const About = (props) => {
               </Figure>
             ) : null}
           </Card>
-          <div className="about">
-            <div class="m-4">
-              <Card className="card1">
-                {/* <BsBriefcaseFill /> */}
-                <Card.Body>
-                  <Card.Title>Experience</Card.Title>
-                  <Card.Text
-                    className={props.text ? "homeSmallCards" : "smallCards"}
-                  >
-                    2+ years
-                  </Card.Text>
-                </Card.Body>
-                {/* <Card.Footer>
+          <div div className="about">
+            <div className="about">
+              <div class="m-4">
+                <Card className="card1">
+                  {/* <BsBriefcaseFill /> */}
+                  <Card.Body>
+                    <Card.Title>Experience</Card.Title>
+                    <Card.Text
+                      className={props.text ? "homeSmallCards" : "smallCards"}
+                    >
+                      2+ years
+                    </Card.Text>
+                  </Card.Body>
+                  {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer> */}
-              </Card>
+                </Card>
+              </div>
             </div>
-            <div class="m-4">
-              <Card className="card1">
-                {/* <HiAcademicCap /> */}
+            <div className="about">
+              <div class="m-4">
+                <Card className="card1">
+                  {/* <HiAcademicCap /> */}
 
-                <Card.Body>
-                  <Card.Title>Education</Card.Title>
-                  <Card.Text
-                    className={props.text ? "homeSmallCards" : "smallCards"}
-                  >
-                    MCA
-                  </Card.Text>
-                </Card.Body>
-                {/* <Card.Footer>
+                  <Card.Body>
+                    <Card.Title>Education</Card.Title>
+                    <Card.Text
+                      className={props.text ? "homeSmallCards" : "smallCards"}
+                    >
+                      MCA
+                    </Card.Text>
+                  </Card.Body>
+                  {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer> */}
-              </Card>
+                </Card>
+              </div>
             </div>
-            <div class="m-4">
-              <Card className="card1">
-                {/* <HiSupport /> */}
-                <Card.Body>
-                  <Card.Title>Support</Card.Title>
-                  <Card.Text
-                    className={props.text ? "homeSmallCards" : "smallCards"}
-                  >
-                    Online
-                  </Card.Text>
-                </Card.Body>
-                {/* <Card.Footer>
+            <div className="about">
+              <div class="m-4">
+                <Card className="card1">
+                  {/* <HiSupport /> */}
+                  <Card.Body>
+                    <Card.Title>Support</Card.Title>
+                    <Card.Text
+                      className={props.text ? "homeSmallCards" : "smallCards"}
+                    >
+                      Online
+                    </Card.Text>
+                  </Card.Body>
+                  {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer> */}
-              </Card>
+                </Card>
+              </div>
             </div>
           </div>
         </CardGroup>
