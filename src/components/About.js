@@ -11,9 +11,7 @@ const About = (props) => {
         <CardGroup className="homeCard">
           <Card className="homeCard">
             <Card.Body>
-              {props.text ? (
-                <Card.Title className="titleCard">About</Card.Title>
-              ) : null}
+              {props.text ? <h4 className="titleCard">About</h4> : null}
 
               {/* <MoreAbout /> */}
               {!props.text ? (
