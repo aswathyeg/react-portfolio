@@ -4,9 +4,11 @@ import aswathy from "../assets/aswathy.jpg";
 import { BsBriefcaseFill } from "react-icons/bs";
 import { HiAcademicCap } from "react-icons/hi";
 import { HiSupport } from "react-icons/hi";
-import bodhii from "../assets/bodhii.jpg";
-import excercise from "../assets/excercise.jpg";
-const About = (props) => {
+import useReducer from "../assets/useReducer.jpg";
+import routing from "../assets/routing.jpg";
+import chart from "../assets/chart.jpg";
+import statemanagement from "../assets/statemanagement.jpg";
+const Writings = (props) => {
   return (
     <div>
       <Container className="subComponentsContainer">
@@ -25,8 +27,8 @@ const About = (props) => {
             <div class="m-4">
               <Card className="worksCard1">
                 <Card.Body>
-                  <Card.Title>Bodhii</Card.Title>
-                  <Card.Img src={bodhii} />
+                  {/* <Card.Title>useReducer</Card.Title> */}
+                  <Card.Img src={useReducer} />
                 </Card.Body>
               </Card>
             </div>
@@ -36,19 +38,19 @@ const About = (props) => {
             <div class="m-4">
               <Card className="worksCard1">
                 <Card.Body>
-                  <Card.Title>Food Order App</Card.Title>
-                  <Card.Img src={bodhii} />
+                  {/* <Card.Title>Food Order App</Card.Title> */}
+                  <Card.Img src={chart} />
                 </Card.Body>
               </Card>
             </div>
           </div>
 
-          <div className="about">
+          {/* <div className="about">
             <div class="m-4">
               <Card className="worksCard1">
                 <Card.Body>
                   <Card.Title>Othanachan</Card.Title>
-                  <Card.Img src={bodhii} />
+                  <Card.Img src={routing} />
                 </Card.Body>
               </Card>
             </div>
@@ -59,14 +61,14 @@ const About = (props) => {
               <Card className="worksCard1">
                 <Card.Body>
                   <Card.Title>Papyrus</Card.Title>
-                  <Card.Img src={bodhii} />
+                  <Card.Img src={chart} />
                 </Card.Body>
               </Card>
             </div>
-          </div>
+          </div> */}
         </CardGroup>
       </Container>
     </div>
   );
 };
-export default About;
+export default Writings;

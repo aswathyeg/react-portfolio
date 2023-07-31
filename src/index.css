@@ -28,10 +28,10 @@
     background-color: linear-gradient(to right,#FFDDE1, white)!important
   } */
 
-  @import url('https://fonts.googleapis.com/css2?family=Aubrey&family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=Kurale&display=swap');
 
 
-.m-auto{
+.m-auto {
     display: flex;
     justify-content: space-between;
     flex: 0.7;
@@ -39,34 +39,41 @@
     /* color: #00CDAC; */
     font-size: medium;
     /* font-family:cursive; */
+
+
+}
+
+.links {
+    text-decoration: none !important;
+    color: black !important;
+
+}
+
+.navbarStyle {
+    height: 80px;
+    background: white !important;
+}
+
+.homeContainer{
+    min-height: 60vh;
+    
+}
+.subComponentsContainer {
+    margin-top: 5% !important;
+    /* padding-bottom:150px; */
+    /* min-height: 50vh; */
    
 
 }
-.links{
-    text-decoration: none!important;
-    color: black!important;
 
-}
-.navbarStyle{
-    height: 80px;
-    background:white!important;
-}
-/* .homeContainer{
-    margin-bottom: 10%!important;
-} */
-.subComponentsContainer{
-   margin-top: 5%!important; 
-   /* padding-bottom:150px; */
-   /* min-height: 50vh; */
-    
+.progressbarContainer {
+    margin-top: 3% !important;
 }
 
-.progressbarContainer{
-    margin-top: 3%!important; 
-}
-.contactDiv{
+.contactDiv {
     margin-right: 300px;
 }
+
 /* .carouselClass{
     
    background-color: black!important;
@@ -75,17 +82,17 @@
 } */
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  filter: invert(1) !important;
-  
-  
+    filter: invert(1) !important;
+
+
 }
-.progressBar{
-   
-   
-}
-.aboutText{
+
+.progressBar {}
+
+.aboutText {
     color: black;
 }
+
 /* .carousel-indicators li {
     display:none; } */
 /*ngb-carousel:focus {
@@ -96,83 +103,161 @@
     
 } */
 
-.homediv{
+.homediv {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
    
+
     /* height: 100vh; */
     /* background-color: linear-gradient(to right,#FFDDE1, white)!important */
 }
-.homeCard{
-    
+
+.homeCard {
+display: flex;
+/* margin-left: 10px; */
+
     color: black;
     align-items: center;
-    border: none!important;
+    border: none !important;
     font-size: medium;
     /* font-family:cursive; */
     /* background: #FFDDE1!important */
+    
 }
-.ContactCard{
-    border: none!important;
+.flex-column{
+    margin-right: 50px;
+}
+
+.ContactCard {
+    border: none !important;
 
 
 }
-.form-control:focus{
-    border-color:black!important;
-    box-shadow: none!important;
-  }
-.smallCards{
+
+.form-control:focus {
+    border-color: black !important;
+    box-shadow: none !important;
+}
+
+.smallCards {
     color: white;
     font-size: large;
-      font-family: 'Kurale', serif;
+    font-family: 'Kurale', serif;
+    /* text-align: center!important;
+    align-items: center!important;  */
 
 }
-.homeSmallCards{
-     color: grey !important;
-     font-size: large;
-     font-family: 'Kurale', serif;
-     /* width: 600px !important; */
+
+.homeSmallCards {
+    color: grey !important;
+    font-size: large;
+    font-family: 'Kurale', serif;
+    
+    /* text-align: center!important;
+    align-items: center!important; */
+    /* width: 600px !important; */
 
 
 }
-.specialCards{
+.worksCards{
+    display: flex;
+    /* flex: auto !important; */
+}
+.specialCards {
     border-radius: 15px 50px !important;
-    background: #c0c0c0!important;
+    background: #c0c0c0 !important;
     padding: 5px !important;
     width: 100px !important;
     margin: 10px !important;
     height: 150px !important;
-    color:black!important;
+    color: black !important;
 }
-.homeSpecialCards{
-    border: none!important;
-    /* position: relative !important;
-    left: -200px !important; */
 
+.homeSpecialCards {
+    /* border: none !important; */
     display: flex;
     justify-content: space-between;
     flex: 50 !important;
+    border-radius: 15px 15px !important;
+    /* background: hwb(0 75% 25%) !important; */
+    box-shadow: black;
+    padding: 15px !important;
+    width: 100px !important;
+    height:200px !important;
+    /* margin-right: 20px; */
+    margin-bottom: 10px;
+    
+
+
+}
+.about{
+    display: flex;
+      flex:35 !important;
+      /* border-radius: 15px!important; */
+      /* align-items: center; */
+      /* width: 100px !important; */
+      /* border: none !important; */
+      align-content: center!important;
+      text-align: center!important;
+      
+}
+  .worksCard1{
+      box-shadow: 2px 4px!important;
+    /* width :450px; */
+    /* height:300px !important; */
+    align-items: center !important;
+    border-radius: 15px!important;
+  }    
+ 
+
+.card1{
+    box-shadow: 2.5px 2.5px 1px grey!important;
+    width :220px;
+    height:200px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 15px!important;
+    /* background-color: -webkit-linear-gradient(#939191, #120f0f)!important; */
+    /* box-shadow: black!important; */
+   /* justify-content: center; */
+
+   /* background: -webkit-linear-gradient(#eee, #120f0f);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; */
+  
    
 }
-.titleCard{
+/* .cardText{
+    text-align: center!important;
+    align-items: center !important;
+    align-content: center!important;
+
+} */
+
+
+.titleCard {
+
+    text-align: center !important;
+
     
-   text-align: center !important;
 
 
 }
-.contactIcons{
-    margin-top: 200px;
+
+.contactIcons {
+    margin-top: 100px;
     display: flex;
 
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.profilePhoto{
-    border-radius: 15px 50px !important;
-   
-        width: 300px !important;
-    
+
+.profilePhoto {
+    border-radius: 20%!important;
+    box-shadow:  2.5px 2.5px 1px grey!important;
+    width: 300px !important;
+
     height: 300px !important;
 
 
@@ -180,82 +265,90 @@
 
     /* border-radius: 104px;
 background: #e0e0e0; */
-/* box-shadow: inset 5px 5px 10px #656565,
+    /* box-shadow: inset 5px 5px 10px #656565,
             inset -5px -5px 10px #ffffff; */
-    
-}
-.navbrand{
-    font-size: medium!important;
-    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; */
-    color: black!important;
-     text-decoration: none!important;
-    
-}
-.cardTitle{
-    font-size: large!important;
-  
 
 }
-.flex-column{
-margin-top: 2%;
+
+.navbrand {
+    font-size: medium !important;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif!important; */
+    color: black !important;
+    text-decoration: none !important;
+
 }
-/* .homeBadge{
-    color:white!important;
-    background-color:black !important;
-    height: 25px;
+
+.cardTitle {
+    font-size: large !important;
+
+
 }
-.homeBadge:hover{
-    background-color: white!important;
-    color:black!important
+
+.flex-column {
+    margin-top: 2%;
+    box-shadow: 2px 2px 1px rgb(250, 244, 244)!important;
+    border: none!important;;
 }
-.homeBadge:active{
-    background-color: black!important;
-  box-shadow: 0 10px grey;
-  transform: translateY(4px);
-} */
-.homeDiv{
+
+
+.homeDiv {
     /* background-color:linear-gradient(red, yellow, green)!important; */
     /* background: linear-gradient(to right,#FFDDE1, white)!important */
 }
+
 /* .worksCards{
 
     align-items: center!important;
     border: none!important;
 
 } */
-.worksCard{
+.homeTitle{
+    font-size: 72px !important;
+    background: -webkit-linear-gradient(#eee, #120f0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+ 
+}
+/* .worksCard {
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding: 120px 130px;
-   
-    
-}
-.WorksCarousal{
+width: 500px;
+
+} */
+
+.WorksCarousal {
 
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
 }
-.formCheck{
+
+.formCheck {
     color: black;
 }
-input[type=checkbox]{
+
+input[type=checkbox] {
     accent-color: black;
 }
-.footer{
-    color: grey!important;
+
+.footer {
+    color: grey !important;
     text-decoration: none !important;
 }
-.footerClass{
+
+.footerClass {
     position: fixed;
     left: 0;
     bottom: 0;
     right: 0;
-    height:auto;
+    height: auto;
     padding: 1rem;
 }
+
 /* footer {
     background-color: white;
     position:fixed;
@@ -271,5 +364,9 @@ input[type=checkbox]{
     grid-row-start: 2;
     grid-row-end: 3;
   }  */
- 
-  
+  .gitCard{
+    box-shadow: 2.5px 2.5px 1px grey!important;
+    /* width: 900px; */
+    /* border: none !important; */
+
+  }

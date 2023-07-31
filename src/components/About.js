@@ -6,40 +6,46 @@ import { HiAcademicCap } from "react-icons/hi";
 import { HiSupport } from "react-icons/hi";
 const About = (props) => {
   return (
-    <div name="about" id="about">
+    <div>
       <Container className="subComponentsContainer">
-        <Card.Body>
-          {props.text ? (
-            <Card.Title className="titleCard">About</Card.Title>
-          ) : null}
-
-          {/* <MoreAbout /> */}
-          {!props.text ? (
-            <div>
-              <Card.Text className="homeSmallCards">
-                Hi, I'm a front end developer. Over the past 2 years experience
-                in development, I have done a handful of projects in React.
-                <br></br> I am doing regular contributions to{" "}
-                <a href="https://github.com/aswathyeg" className="aboutText">
-                  {" "}
-                  Github
-                </a>
-                . Sharing my technical knowledge in{" "}
-                <a href="https://medium.com/" className="aboutText">
-                  {" "}
-                  Medium{" "}
-                </a>
-                is my other interest.
-              </Card.Text>
-              <br></br>
-            </div>
-          ) : null}
-          {/*  */}
-        </Card.Body>
         <CardGroup className="homeCard">
           <Card className="homeCard">
-            {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
-            {!props.text ? (
+            <Card.Body>
+              {props.text ? <h4 className="titleCard">About</h4> : null}
+
+              {/* <MoreAbout /> */}
+              {!props.text ? (
+                <div>
+                  <Card.Text className="homeSmallCards">
+                    Hi, I'm a front end developer. Over the past 2 years
+                    experience in development, I have done a handful of projects
+                    in React.
+                    <br></br> I am doing regular contributions to{" "}
+                    <a
+                      href="https://github.com/aswathyeg"
+                      className="aboutText"
+                    >
+                      {" "}
+                      Github
+                    </a>
+                    . Sharing my technical knowledge in{" "}
+                    <a href="https://medium.com/" className="aboutText">
+                      {" "}
+                      Medium{" "}
+                    </a>
+                    is my other interest.
+                  </Card.Text>
+                  <br></br>
+                </div>
+              ) : null}
+              {/*  */}
+            </Card.Body>
+          </Card>
+        </CardGroup>
+        <CardGroup className="homeCard">
+          {/* <Card className="homeCard"> */}
+          {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
+          {/* {!props.text ? (
               <Figure>
                 <Figure.Image
                   className="profilePhoto"
@@ -50,51 +56,64 @@ const About = (props) => {
                 />
               </Figure>
             ) : null}
-          </Card>
+          </Card> */}
+          <div div className="about">
+            <div className="about">
+              <div class="m-4">
+                <Card className="card1">
+                  {/* <BsBriefcaseFill /> */}
+                  <Card.Body>
+                    <Card.Title>Experience</Card.Title>
+                    <Card.Text
+                      className={props.text ? "homeSmallCards" : "smallCards"}
+                    >
+                      2+ years
+                    </Card.Text>
+                  </Card.Body>
+                  {/* <Card.Footer>
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </Card.Footer> */}
+                </Card>
+              </div>
+            </div>
+            <div className="about">
+              <div class="m-4">
+                <Card className="card1">
+                  {/* <HiAcademicCap /> */}
 
-          <Card className={props.text ? "homeSpecialCards" : "specialCards"}>
-            <BsBriefcaseFill />
-            <Card.Body>
-              <Card.Title>Experience</Card.Title>
-              <Card.Text
-                className={props.text ? "homeSmallCards" : "smallCards"}
-              >
-                2+ years
-              </Card.Text>
-            </Card.Body>
-            {/* <Card.Footer>
+                  <Card.Body>
+                    <Card.Title>Education</Card.Title>
+                    <Card.Text
+                      className={props.text ? "homeSmallCards" : "smallCards"}
+                    >
+                      MCA
+                    </Card.Text>
+                  </Card.Body>
+                  {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer> */}
-          </Card>
-          <Card className={props.text ? "homeSpecialCards" : "specialCards"}>
-            <HiAcademicCap />
-
-            <Card.Body>
-              <Card.Title>Education</Card.Title>
-              <Card.Text
-                className={props.text ? "homeSmallCards" : "smallCards"}
-              >
-                MCA
-              </Card.Text>
-            </Card.Body>
-            {/* <Card.Footer>
+                </Card>
+              </div>
+            </div>
+            <div className="about">
+              <div class="m-4">
+                <Card className="card1">
+                  {/* <HiSupport /> */}
+                  <Card.Body>
+                    <Card.Title>Support</Card.Title>
+                    <Card.Text
+                      className={props.text ? "homeSmallCards" : "smallCards"}
+                    >
+                      Online
+                    </Card.Text>
+                  </Card.Body>
+                  {/* <Card.Footer>
               <small className="text-muted">Last updated 3 mins ago</small>
             </Card.Footer> */}
-          </Card>
-          <Card className={props.text ? "homeSpecialCards" : "specialCards"}>
-            <HiSupport />
-            <Card.Body>
-              <Card.Title>Support</Card.Title>
-              <Card.Text
-                className={props.text ? "homeSmallCards" : "smallCards"}
-              >
-                Online
-              </Card.Text>
-            </Card.Body>
-            {/* <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer> */}
-          </Card>
+                </Card>
+              </div>
+            </div>
+          </div>
         </CardGroup>
       </Container>
     </div>
