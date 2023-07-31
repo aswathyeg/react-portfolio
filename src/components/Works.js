@@ -12,9 +12,7 @@ const About = (props) => {
       <Container className="subComponentsContainer">
         <Card className="homeCard">
           <Card.Body>
-            {props.text ? (
-              <Card.Title className="titleCard">Works</Card.Title>
-            ) : null}
+            {props.text ? <h4 className="titleCard">Works</h4> : null}
           </Card.Body>
         </Card>
 
