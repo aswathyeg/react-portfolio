@@ -17,6 +17,7 @@ import MoreAbout from "./MoreAboutButton";
 import Footer from "./Footer";
 import Skills from "./Skills";
 import Writings from "./Writings";
+import AnimatedCard from "./AnimatedCard";
 const Home = () => {
   const [cardText, setCardText] = useState(true);
 
@@ -114,7 +115,8 @@ const Home = () => {
 
         <Works text={cardText} />
         <Skills />
-        <Writings />
+        {/* <Writings /> */}
+        <AnimatedCard />
       </Container>
     </div>
   );
