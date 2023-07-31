@@ -16,6 +16,7 @@ import About from "./About";
 import MoreAbout from "./MoreAboutButton";
 import Footer from "./Footer";
 import Skills from "./Skills";
+import Writings from "./Writings";
 const Home = () => {
   const [cardText, setCardText] = useState(true);
 
@@ -113,6 +114,7 @@ const Home = () => {
 
         <Works text={cardText} />
         <Skills />
+        <Writings />
       </Container>
     </div>
   );
