@@ -18,6 +18,7 @@ import Footer from "./Footer";
 import Skills from "./Skills";
 import Writings from "./Writings";
 import AnimatedCard from "./AnimatedCard";
+import WorksNew from "./WorksNew";
 const Home = () => {
   const [cardText, setCardText] = useState(true);
 
@@ -113,7 +114,8 @@ const Home = () => {
 
         <About text={cardText} />
 
-        <Works text={cardText} />
+        {/* <Works text={cardText} /> */}
+        <WorksNew />
         <Skills />
         {/* <Writings /> */}
         <AnimatedCard />
