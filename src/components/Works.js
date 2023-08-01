@@ -21,7 +21,10 @@ const About = (props) => {
 
           <div className="about">
             <div class="m-4">
-              <Card className="worksCard1">
+              <Card
+                className="worksCard1"
+                // onClick={() => window.open("https://aswathyeg.medium.com/")}
+              >
                 <Card.Body>
                   <Card.Title>Bodhii</Card.Title>
                   <Card.Img src={bodhii} />
