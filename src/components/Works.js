@@ -6,15 +6,14 @@ import { HiAcademicCap } from "react-icons/hi";
 import { HiSupport } from "react-icons/hi";
 import bodhii from "../assets/bodhii.jpg";
 import excercise from "../assets/excercise.jpg";
+import GitHubContribution from "./GitHubContribution";
 const About = (props) => {
   return (
     <div>
       <Container className="subComponentsContainer">
         <Card className="homeCard">
           <Card.Body>
-            {props.text ? (
-              <Card.Title className="titleCard">Works</Card.Title>
-            ) : null}
+            {props.text ? <h4 className="titleCard">Works</h4> : null}
           </Card.Body>
         </Card>
 
@@ -23,7 +22,10 @@ const About = (props) => {
 
           <div className="about">
             <div class="m-4">
-              <Card className="worksCard1">
+              <Card
+                className="worksCard1"
+                // onClick={() => window.open("https://aswathyeg.medium.com/")}
+              >
                 <Card.Body>
                   <Card.Title>Bodhii</Card.Title>
                   <Card.Img src={bodhii} />
@@ -65,6 +67,7 @@ const About = (props) => {
             </div>
           </div>
         </CardGroup>
+        <GitHubContribution />
       </Container>
     </div>
   );
