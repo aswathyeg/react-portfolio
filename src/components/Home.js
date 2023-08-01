@@ -114,8 +114,8 @@ const Home = () => {
 
         <About text={cardText} />
 
-        {/* <Works text={cardText} /> */}
-        <WorksNew />
+        <Works text={cardText} />
+        {/* <WorksNew /> */}
         <Skills />
         {/* <Writings /> */}
         <AnimatedCard />
