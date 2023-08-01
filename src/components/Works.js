@@ -6,6 +6,7 @@ import { HiAcademicCap } from "react-icons/hi";
 import { HiSupport } from "react-icons/hi";
 import bodhii from "../assets/bodhii.jpg";
 import excercise from "../assets/excercise.jpg";
+import GitHubContribution from "./GitHubContribution";
 const About = (props) => {
   return (
     <div>
@@ -66,6 +67,7 @@ const About = (props) => {
             </div>
           </div>
         </CardGroup>
+        <GitHubContribution />
       </Container>
     </div>
   );
