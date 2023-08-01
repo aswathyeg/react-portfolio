@@ -19,6 +19,7 @@ import Skills from "./Skills";
 import Writings from "./Writings";
 import AnimatedCard from "./AnimatedCard";
 import WorksNew from "./WorksNew";
+
 const Home = () => {
   const [cardText, setCardText] = useState(true);
 
@@ -119,6 +120,7 @@ const Home = () => {
         <Skills />
         {/* <Writings /> */}
         <AnimatedCard />
+        {/* <GitHubContribution /> */}
       </Container>
     </div>
   );
