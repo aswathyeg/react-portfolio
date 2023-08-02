@@ -112,15 +112,15 @@ const Home = () => {
             </Card.Body>
           </Card>
         </CardGroup>
-
-        <About text={cardText} />
+        <AnimatedCard />
 
         <Works text={cardText} />
         {/* <WorksNew /> */}
         <Skills />
         {/* <Writings /> */}
-        <AnimatedCard />
+
         {/* <GitHubContribution /> */}
+        <About text={cardText} />
       </Container>
     </div>
   );
