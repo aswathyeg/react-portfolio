@@ -57,10 +57,9 @@ const Home = () => {
       <Container className="homeContainer">
         <CardGroup className="homeCard">
           <Card className="homeCard">
-            <Card.Title className="homeTitle">
-              {" "}
-              Hi there, I'm Aswathy
-            </Card.Title>
+            <h4 className="heroText">Aswathy</h4>
+            <Card.Title className="homeTitle"> UI Developer</Card.Title>
+
             <Card.Body className="homeCard">
               <Nav className="flex-column">
                 <Nav.Link>
@@ -90,7 +89,7 @@ const Home = () => {
               {/* make text responsive*/}
               {/* <Card.Title> Hi there, I'm Aswathy</Card.Title> */}
               <Card.Text className="homeSmallCards">
-                I Am A Bangalore Based Front End Developer.
+                I am A Bangalore Based Front End Developer.
                 <br></br> Interested In Developing Impactful User Interfaces
                 That Speak Volumes.
                 <br></br> Let's Work Together.
