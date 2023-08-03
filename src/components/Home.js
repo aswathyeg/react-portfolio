@@ -91,7 +91,7 @@ const Home = () => {
         <AnimatedCard />
 
         {/* <WorksNew /> */}
-        <Skills />
+        {/* <Skills /> */}
         {/* <Writings /> */}
 
         {/* <GitHubContribution /> */}
