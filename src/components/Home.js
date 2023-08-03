@@ -89,9 +89,9 @@ const Home = () => {
               {/* make text responsive*/}
               {/* <Card.Title> Hi there, I'm Aswathy</Card.Title> */}
               <Card.Text className="homeSmallCards">
-                I am A Bangalore Based Front End Developer.
-                <br></br> Interested In Developing Impactful User Interfaces
-                That Speak Volumes.
+                I am a Bangalore based Front End Developer.
+                <br></br> Interested in developing impactful User Interfaces
+                that speak volumes.
                 <br></br> Let's Work Together.
               </Card.Text>
             </Card.Body>
