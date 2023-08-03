@@ -20,20 +20,9 @@ const Skills = () => {
             <Container className="progressbarContainer">
               <div>
                 <ProgressBar
-                  now={htmlPercentage}
-                  label={` HTML ${htmlPercentage}% `}
+                  now={reactPercentage}
+                  label={` React  `}
                   variant="dark"
-                  animated
-                />
-              </div>
-            </Container>
-            <Container className="progressbarContainer">
-              <div>
-                <ProgressBar
-                  now={cssPercentage}
-                  label={` CSS ${cssPercentage}% `}
-                  variant="dark"
-                  animated
                 />
               </div>
             </Container>
@@ -41,29 +30,36 @@ const Skills = () => {
               <div>
                 <ProgressBar
                   now={javascriptPercentage}
-                  label={` JavaScript ${javascriptPercentage}% `}
+                  label={` JavaScript `}
                   variant="dark"
-                  animated
                 />
               </div>
             </Container>
             <Container className="progressbarContainer">
               <div>
                 <ProgressBar
-                  now={reactPercentage}
-                  label={` React ${reactPercentage}% `}
+                  now={htmlPercentage}
+                  label={` HTML `}
                   variant="dark"
-                  animated
+                />
+                {/* add ${htmlPercentage}%  to include percentage*/}
+              </div>
+            </Container>
+            <Container className="progressbarContainer">
+              <div>
+                <ProgressBar
+                  now={cssPercentage}
+                  label={` CSS `}
+                  variant="dark"
                 />
               </div>
             </Container>
             <Container className="progressbarContainer">
               <div>
                 <ProgressBar
-                  now={azurePercentage}
-                  label={` Azure ${azurePercentage}%`}
+                  now={bootstrapPercentage}
+                  label={` Bootstrap  `}
                   variant="dark"
-                  animated
                 />
               </div>
             </Container>
@@ -71,20 +67,19 @@ const Skills = () => {
             <Container className="progressbarContainer">
               <div>
                 <ProgressBar
-                  now={bootstrapPercentage}
-                  label={` Bootstrap ${bootstrapPercentage}% `}
+                  now={azurePercentage}
+                  label={` Azure `}
                   variant="dark"
-                  animated
                 />
               </div>
             </Container>
+
             <Container className="progressbarContainer">
               <div>
                 <ProgressBar
                   now={cypressPercentage}
-                  label={` Cypress ${cypressPercentage}% `}
+                  label={` Cypress  `}
                   variant="dark"
-                  animated
                 />
               </div>
             </Container>
