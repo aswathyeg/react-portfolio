@@ -6,7 +6,9 @@ const NewNavbar = () => {
     <>
       <Navbar bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="#home">Aswathy</Navbar.Brand>
+          <Navbar.Brand href="#home" className="newNavBrand">
+            Aswathy
+          </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Writings</Nav.Link>
             <Nav.Link href="#features">Works</Nav.Link>
