@@ -16,7 +16,7 @@ const About = (props) => {
               {/* <MoreAbout /> */}
               {!props.text ? (
                 <div>
-                  <Card.Text className="homeSmallCards">
+                  <Card.Text className="aboutSmallCards">
                     Hi, I'm a front end developer. Over the past 2 years
                     experience in development, I have done a handful of projects
                     in React.
