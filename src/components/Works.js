@@ -7,11 +7,11 @@ import cypressIntro from "../assets/cypressIntro.jpg";
 import cypress from "../assets/cypress.jpg";
 import bodhii from "../assets/bodhii.jpg";
 import { Container, Card, CardGroup, Figure } from "react-bootstrap";
-const AnimatedCard = () => {
+const Works = (props) => {
   return (
     <div>
       <Container className="subComponentsContainer">
-        <h4 className="titleCard">Works</h4>
+        {props.text ? <h4 className="titleCard">Works</h4> : null}
         <br></br>
         <body>
           <div class="box">
@@ -95,4 +95,4 @@ const AnimatedCard = () => {
   );
 };
 
-export default AnimatedCard;
+export default Works;
