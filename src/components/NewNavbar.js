@@ -6,14 +6,14 @@ const NewNavbar = () => {
     <>
       <Navbar bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand href="#home" className="newNavBrand">
+          <Navbar.Brand href="/" className="newNavBrand">
             Aswathy
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Writings</Nav.Link>
-            <Nav.Link href="#features">Works</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="/writings">Writings</Nav.Link>
+            <Nav.Link href="/works">Works</Nav.Link>
+            <Nav.Link href="/skills">Skills</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
