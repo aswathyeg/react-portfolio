@@ -3,6 +3,7 @@ import { CardGroup, Container } from "react-bootstrap";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
+import ListGroup from "react-bootstrap/ListGroup";
 const Skills = () => {
   const htmlPercentage = 70;
   const cssPercentage = 60;
@@ -45,6 +46,7 @@ const Skills = () => {
                 {/* add ${htmlPercentage}%  to include percentage*/}
               </div>
             </Container>
+
             <Container className="progressbarContainer">
               <div>
                 <ProgressBar
@@ -84,47 +86,71 @@ const Skills = () => {
               </div>
             </Container>
           </Card>
-          <Card className="homeCard">
+          <CardGroup className="homeCard">
+            <Card className="homeCard">
+              <Card.Title className="titleCard">Why work with me?</Card.Title>
+              <ListGroup>
+                {/* <ListGroup.Item action variant="secondary">
+                Analytical
+              </ListGroup.Item> */}
+                <ListGroup.Item action variant="secondary">
+                  Clear Communicator
+                </ListGroup.Item>
+                <ListGroup.Item action variant="secondary">
+                  Strong Interpersonal skills
+                </ListGroup.Item>
+                <ListGroup.Item action variant="secondary">
+                  Results Driven
+                </ListGroup.Item>
+                <ListGroup.Item action variant="secondary">
+                  Deadline Conscious
+                </ListGroup.Item>
+                <ListGroup.Item action variant="secondary">
+                  Big-picture Problem Solver
+                </ListGroup.Item>
+              </ListGroup>
+            </Card>
+          </CardGroup>
+          {/* <Card className="homeCard">
             <Card.Title className="titleCard">Why work with me?</Card.Title>
             <Form>
               {["checkbox"].map((type) => (
                 <div key={`default-${type}`} className="skillsCards">
-                  <Form.Check // prettier-ignore
+                  <Form.Check 
                     type={type}
                     id={`default-${type}`}
                     label={`Analytical`}
                     isValid={false}
-                    checked
                   />
-                  <Form.Check // prettier-ignore
+                  <Form.Check 
                     type={type}
                     id={`default-${type}`}
                     label={`Clear Communicator`}
                     isValid={false}
                     checked
                   />
-                  <Form.Check // prettier-ignore
+                  <Form.Check 
                     type={type}
                     id={`default-${type}`}
                     label={`Strong Interpersonal skills`}
                     isValid={false}
                     checked
                   />
-                  <Form.Check // prettier-ignore
+                  <Form.Check 
                     type={type}
                     id={`default-${type}`}
                     label={`Results Driven`}
                     isValid={false}
                     checked
                   />
-                  <Form.Check // prettier-ignore
+                  <Form.Check 
                     type={type}
                     id={`default-${type}`}
                     label={`Deadline Conscious`}
                     isValid={false}
                     checked
                   />
-                  <Form.Check // prettier-ignore
+                  <Form.Check 
                     type={type}
                     id={`default-${type}`}
                     label={`Big-picture Problem Solver`}
@@ -132,16 +158,11 @@ const Skills = () => {
                     checked
                   />
 
-                  {/* <Form.Check
-                    disabled
-                    type={type}
-                    label={`disabled ${type}`}
-                    id={`disabled-default-${type}`}
-                  /> */}
+                  
                 </div>
               ))}
             </Form>
-          </Card>
+          </Card> */}
         </CardGroup>
       </Container>
     </div>
