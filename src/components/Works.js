@@ -1,75 +1,98 @@
-import React, { useState } from "react";
-import { Container, Card, CardGroup, Figure } from "react-bootstrap";
-import aswathy from "../assets/aswathy.jpg";
-import { BsBriefcaseFill } from "react-icons/bs";
-import { HiAcademicCap } from "react-icons/hi";
-import { HiSupport } from "react-icons/hi";
-import bodhii from "../assets/bodhii.jpg";
+import React from "react";
+import "./AnimatedCard.css";
+import useReducer from "../assets/useReducer.jpg";
+import routing from "../assets/routing.jpg";
 import excercise from "../assets/excercise.jpg";
-import GitHubContribution from "./GitHubContribution";
-const About = (props) => {
+import cypressIntro from "../assets/cypressIntro.jpg";
+import cypress from "../assets/cypress.jpg";
+import bodhii from "../assets/bodhii.jpg";
+import { Container, Card, CardGroup, Figure } from "react-bootstrap";
+const AnimatedCard = () => {
   return (
     <div>
       <Container className="subComponentsContainer">
-        <Card className="homeCard">
-          <Card.Body>
-            {props.text ? <h4 className="titleCard">Works</h4> : null}
-          </Card.Body>
-        </Card>
-
-        <CardGroup className="homeCard">
-          {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
-
-          <div className="about">
-            <div class="m-4">
-              <Card
-                className="worksCard1"
-                // onClick={() => window.open("https://aswathyeg.medium.com/")}
-              >
-                <Card.Body>
-                  <Card.Title>Bodhii</Card.Title>
-                  <Card.Img src={bodhii} />
-                </Card.Body>
-              </Card>
+        <h4 className="titleCard">Works</h4>
+        <br></br>
+        <body>
+          <div class="box">
+            <div
+              class="worksAnimatedCard"
+              onClick={() =>
+                window.open(
+                  "https://aswathyeg.medium.com/using-chart-js-in-react-239d0c7f055c"
+                )
+              }
+            >
+              <div class="imgBx">
+                <img src={excercise} alt="images" />
+              </div>
+              <div class="details">
+                <h2>
+                  An Excercise App
+                  {/* <span>Director</span> */}
+                </h2>
+              </div>
             </div>
-          </div>
 
-          <div className="about">
-            <div class="m-4">
-              <Card className="worksCard1">
-                <Card.Body>
-                  <Card.Title>Food Order App</Card.Title>
-                  <Card.Img src={bodhii} />
-                </Card.Body>
-              </Card>
+            <div class="worksAnimatedCard">
+              <div class="imgBx">
+                <img src={bodhii} alt="images" />
+              </div>
+              <div class="details">
+                <h2>
+                  An E-Learning App
+                  {/* <span>Producer</span> */}
+                </h2>
+              </div>
             </div>
-          </div>
 
-          <div className="about">
-            <div class="m-4">
-              <Card className="worksCard1">
-                <Card.Body>
-                  <Card.Title>Othanachan</Card.Title>
-                  <Card.Img src={bodhii} />
-                </Card.Body>
-              </Card>
+            {/* <div class="animatedCard">
+              <div class="imgBx">
+                <img src={useReducer} alt="images" />
+              </div>
+              <div class="details">
+                <h2>
+                  SomeOne Famous<span>Actor</span>
+                </h2>
+              </div>
             </div>
-          </div>
 
-          <div className="about">
-            <div class="m-4">
-              <Card className="worksCard1">
-                <Card.Body>
-                  <Card.Title>Papyrus</Card.Title>
-                  <Card.Img src={bodhii} />
-                </Card.Body>
-              </Card>
+            <div class="animatedCard">
+              <div class="imgBx">
+                <img src={routing} alt="images" />
+              </div>
+              <div class="details">
+                <h2>
+                  SomeOne Famous<span>Producer</span>
+                </h2>
+              </div>
             </div>
+            <div class="animatedCard">
+              <div class="imgBx">
+                <img src={cypressIntro} alt="images" />
+              </div>
+              <div class="details">
+                <h2>
+                  SomeOne Famous<span>Producer</span>
+                </h2>
+              </div>
+            </div>
+            <div class="animatedCard">
+              <div class="imgBx">
+                <img src={cypress} alt="images" />
+              </div>
+              <div class="details">
+                <h2>
+                  SomeOne Famous<span>Producer</span>
+                </h2>
+              </div>
+            </div>
+          </div> */}
           </div>
-        </CardGroup>
-        <GitHubContribution />
+        </body>
       </Container>
     </div>
   );
 };
-export default About;
+
+export default AnimatedCard;

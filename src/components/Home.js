@@ -23,48 +23,21 @@ import WorksNew from "./WorksNew";
 const Home = () => {
   const [cardText, setCardText] = useState(true);
 
-  // const handleClickScroll = () => {
-  //   const element = document.getElementById("section-1");
-  //   if (element) {
-  //     // 👇 Will scroll smoothly to the top of the next section
-  //     element.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
   return (
     <div>
-      <Nav className="flex-column">
-        {/* <Nav.Link>
-          <AiFillLinkedin
-            onClick={() =>
-              window.open("https://www.linkedin.com/in/aswathyeg/")
-            }
-            color="black"
-          />
-        </Nav.Link>
-        <Nav.Link eventKey="link-1">
-          <BsMedium
-            onClick={() => window.open("https://aswathyeg.medium.com/")}
-            color="black"
-          />
-        </Nav.Link>
-        <Nav.Link eventKey="link-2">
-          <AiFillGithub
-            color="black"
-            onClick={() => window.open("https://github.com/aswathyeg")}
-          />
-        </Nav.Link> */}
-      </Nav>
-      <Container className="homeContainer">
-        <CardGroup className="homeCard">
-          <Card className="homeCard">
-            <Card.Title className="homeTitle">
-              {" "}
-              Hi there, I'm Aswathy
-            </Card.Title>
-            <Card.Body className="homeCard">
+      {/* <Nav className="flex-column"></Nav> */}
+      <Container>
+        <CardGroup>
+          <Card className="descriptionCard">
+            <div className="heroText">
+              <h4 className="heroText">Aswathy</h4>
+              <h className="homeTitle"> UI Developer</h>
+            </div>
+            <Card.Body className="descriptionCard">
               <Nav className="flex-column">
                 <Nav.Link>
                   <AiFillLinkedin
+                    size={40}
                     onClick={() =>
                       window.open("https://www.linkedin.com/in/aswathyeg/")
                     }
@@ -73,12 +46,14 @@ const Home = () => {
                 </Nav.Link>
                 <Nav.Link eventKey="link-1">
                   <BsMedium
+                    size={40}
                     onClick={() => window.open("https://aswathyeg.medium.com/")}
                     color="black"
                   />
                 </Nav.Link>
                 <Nav.Link eventKey="link-2">
                   <AiFillGithub
+                    size={40}
                     color="black"
                     onClick={() => window.open("https://github.com/aswathyeg")}
                   />
@@ -90,10 +65,10 @@ const Home = () => {
               {/* make text responsive*/}
               {/* <Card.Title> Hi there, I'm Aswathy</Card.Title> */}
               <Card.Text className="homeSmallCards">
-                I Am A Bangalore Based Front End Developer.
-                <br></br> Interested In Developing Impactful User Interfaces
-                That Speak Volumes.
-                <br></br> Let's Work Together.
+                I am a Bangalore based Front End Developer.
+                <br></br> Interested in developing impactful User Interfaces
+                that speak volumes.
+                <br></br> Let's work together.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -112,15 +87,15 @@ const Home = () => {
             </Card.Body>
           </Card>
         </CardGroup>
-
-        <About text={cardText} />
-
         <Works text={cardText} />
-        {/* <WorksNew /> */}
-        <Skills />
-        {/* <Writings /> */}
         <AnimatedCard />
+
+        {/* <WorksNew /> */}
+        {/* <Skills /> */}
+        {/* <Writings /> */}
+
         {/* <GitHubContribution /> */}
+        <About text={cardText} />
       </Container>
     </div>
   );

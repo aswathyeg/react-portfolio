@@ -42,67 +42,46 @@ const About = (props) => {
             </Card.Body>
           </Card>
         </CardGroup>
+
         <CardGroup className="homeCard">
-          {/* <Card className="homeCard"> */}
-          {/* <Card.Img variant="top" roundedCi src={photo} alt="my profile" /> */}
-          {/* {!props.text ? (
-              <Figure>
-                <Figure.Image
-                  className="profilePhoto"
-                  width={300}
-                  height={300}
-                  alt="171x180"
-                  src={aswathy}
-                />
-              </Figure>
-            ) : null}
-          </Card> */}
           <div div className="about">
             <div className="about">
               <div class="m-4">
                 <Card className="card1">
-                  {/* <BsBriefcaseFill /> */}
                   <Card.Body>
                     <Card.Title>Experience</Card.Title>
-                    <Card.Text
-                      // className={props.text ? "homeSmallCards" : "smallCards"}
-                      className="smallCards"
-                    >
-                      2+ years
-                    </Card.Text>
+                    <Card.Text className="smallCards">2+ years</Card.Text>
                   </Card.Body>
-                  {/* <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer> */}
                 </Card>
               </div>
             </div>
             <div className="about">
               <div class="m-4">
                 <Card className="card1">
-                  {/* <HiAcademicCap /> */}
-
                   <Card.Body>
                     <Card.Title>Education</Card.Title>
                     <Card.Text className="smallCards">MCA</Card.Text>
                   </Card.Body>
-                  {/* <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer> */}
                 </Card>
               </div>
             </div>
             <div className="about">
               <div class="m-4">
                 <Card className="card1">
-                  {/* <HiSupport /> */}
                   <Card.Body>
                     <Card.Title>Support</Card.Title>
                     <Card.Text className="smallCards">Online</Card.Text>
                   </Card.Body>
-                  {/* <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </Card.Footer> */}
+                </Card>
+              </div>
+            </div>
+            <div className="about">
+              <div class="m-4">
+                <Card className="card1">
+                  <Card.Body>
+                    <Card.Title>Location</Card.Title>
+                    <Card.Text className="smallCards">Bangalore</Card.Text>
+                  </Card.Body>
                 </Card>
               </div>
             </div>

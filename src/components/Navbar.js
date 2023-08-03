@@ -15,7 +15,7 @@ import { Link } from "react-router-dom";
 const NavbarPage = () => {
   return (
     <Navbar className="navbarStyle">
-      <Container>
+      <Container className="homeContainer">
         <Link to="/" className="navbrand">
           Aswathy E G{" "}
         </Link>
@@ -28,13 +28,18 @@ const NavbarPage = () => {
           <Link to="about" className="links">
             About
           </Link>
+        </Nav>
+        <Nav className="m-auto">
           <Link to="skills" className="links">
             Skills
           </Link>
-
+        </Nav>
+        <Nav className="m-auto">
           <Link to="works" className="links">
             Works
           </Link>
+        </Nav>
+        <Nav className="m-auto">
           <Link to="contact" className="links">
             Contact
           </Link>

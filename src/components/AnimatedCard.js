@@ -1,5 +1,5 @@
 import React from "react";
-import "./AnimatedCard.css";
+import "./Works.css";
 import useReducer from "../assets/useReducer.jpg";
 import routing from "../assets/routing.jpg";
 import chart from "../assets/chart.jpg";

@@ -17,7 +17,7 @@ animatedBody{
 }
 .animatedCard{
   position: relative;
-  width: 300px;
+  width: 350px;
   height: 350px;
   background: #fff;
   margin: 0 auto;
@@ -98,3 +98,6 @@ color: #f38695;
 display: block;
 margin-top: 5px;
  } 
+ .worksAnimatedCard{
+  width:520px !important
+ }
