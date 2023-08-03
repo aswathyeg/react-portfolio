@@ -52,7 +52,7 @@ animatedBody{
   position: absolute;
   top: 10px;
   left: 10px;
-  bottom: 10px;
+  bottom: 80px;
   right: 10px;
   background: #222;
   transition: 0.5s;
@@ -61,7 +61,7 @@ animatedBody{
   
   .worksAnimatedCard:hover .imgBx
   {
-    bottom: 80px;
+    bottom: 10px;
   }
   
   .worksAnimatedCard .imgBx img{
