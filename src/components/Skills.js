@@ -93,7 +93,7 @@ const Skills = () => {
             <Card.Title className="titleCard">Why work with me?</Card.Title>
             <Form>
               {["checkbox"].map((type) => (
-                <div key={`default-${type}`} className="homeSmallCards">
+                <div key={`default-${type}`} className="skillsCards">
                   <Form.Check // prettier-ignore
                     type={type}
                     id={`default-${type}`}
