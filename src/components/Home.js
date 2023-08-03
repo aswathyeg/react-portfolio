@@ -88,7 +88,7 @@ const Home = () => {
           </Card>
         </CardGroup>
         <Works text={cardText} />
-        <AnimatedCard />
+        <AnimatedCard text={cardText} />
 
         {/* <WorksNew /> */}
         {/* <Skills /> */}
