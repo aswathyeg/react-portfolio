@@ -38,8 +38,8 @@
 
 .m-auto {
     display: flex;
-    justify-content: space-between;
-    flex: 0.7;
+    /* justify-content:left !important; */
+    /* flex: .0.2!important; */
     cursor: pointer;
     /* color: #00CDAC; */
     font-size: medium;
@@ -119,21 +119,34 @@
     /* height: 100vh; */
     /* background-color: linear-gradient(to right,#FFDDE1, white)!important */
 }
-
-.homeCard {
-display: flex;
-/* margin-left: 10px; */
+.descriptionCard{
+    display: flex;
+/* flex: .2 px !important; */
+/* margin-left: 50px; */
 
     color: black;
     align-items: center;
     border: none !important;
-    font-size: medium;
+   
+}
+
+.homeCard {
+display: flex;
+/* flex: .2 px !important; */
+/* margin-left: 50px; */
+
+    color: black;
+    align-items: center;
+    border: none !important;
+    /* font-size: medium; */
     /* font-family:cursive; */
     /* background: #FFDDE1!important */
     
 }
 .flex-column{
-    margin-right: 50px;
+    margin-right: 20px;
+    
+   
 }
 
 .ContactCard {
@@ -148,8 +161,8 @@ display: flex;
 }
 
 .smallCards {
-    color: white;
-    font-size: large;
+    color: grey;
+    font-size: 38px;
     font-family: 'Kurale', serif;
     /* text-align: center!important;
     align-items: center!important;  */
@@ -158,14 +171,20 @@ display: flex;
 
 .homeSmallCards {
     color: grey !important;
-    font-size: large;
+    font-size: 25px;
     font-family: 'Kurale', serif;
-    
+    margin-top: -11%;
     /* text-align: center!important;
     align-items: center!important; */
     /* width: 600px !important; */
 
 
+}
+.skillsCards{
+    color: grey !important;
+    font-size: large;
+    font-family: 'Kurale', serif;
+    list-style-type: square !important;
 }
 .worksCards{
     display: flex;
@@ -209,9 +228,9 @@ display: flex;
       text-align: center!important;
       
 }
-  .worksCard1{
+  .worksCard1{display: flex !important;
     box-shadow: 5px 5px 3px rgb(185, 177, 177)!important;
-    width :400px;
+    width :500px;
     /* height:300px !important; */
     align-items: center !important;
     border-radius: 15px!important;
@@ -221,7 +240,7 @@ display: flex;
 .card1{
     box-shadow: 5px 5px 3px rgb(185, 177, 177)!important;
     width :220px;
-    height:200px !important;
+    height:140px !important;
     align-items: center !important;
     justify-content: center !important;
     border-radius: 15px!important;
@@ -259,10 +278,11 @@ display: flex;
 
 .profilePhoto {
     border-radius: 20%!important;
-    box-shadow:  2.5px 2.5px 1px grey!important;
-    width: 300px !important;
+    box-shadow: 5px 5px 3px rgb(185, 177, 177)!important;
+    width: 1000px !important;
 
-    height: 300px !important;
+    height: 500px !important;
+    margin-left: 30px;
 
 
 
@@ -273,6 +293,14 @@ background: #e0e0e0; */
             inset -5px -5px 10px #ffffff; */
 
 }
+.me-auto{
+    /* display: flex;
+    padding : 5 15px 10 15px !important; */
+}
+/* Navbar Nav Link{
+    padding-left:30px !important;
+    padding-right:30px !important;
+  } */
 
 .navbrand {
     font-size: medium !important;
@@ -291,7 +319,8 @@ background: #e0e0e0; */
 .flex-column {
     margin-top: 2%;
     box-shadow: 2px 2px 1px rgb(250, 244, 244)!important;
-    border: none!important;;
+    border: none!important;
+    margin-top: -11%;
 }
 
 
@@ -306,14 +335,51 @@ background: #e0e0e0; */
     border: none!important;
 
 } */
+.heroText{
+    font-size: 70px !important;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 1%;
+    padding: 2px;
+
+}
 .homeTitle{
-    font-size: 72px !important;
+    font-size: 30px !important;
+    /* text-align:center !important;
+    justify-content: center !important; */
     background: -webkit-linear-gradient(#eee, #120f0f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    /* position: relative;
+    max-width: 1700px;
+    margin: 1400px auto;
+    text-align: center; */
+    
     
  
 }
+
+/* .homeTitle:before {
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: red;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  .homeTitle:after {
+    content:" ";
+  height: 2px;
+  width: 130px;
+  background: red;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  }  */
 /* .worksCard {
     display: flex;
     flex-direction: row;
@@ -322,7 +388,7 @@ background: #e0e0e0; */
     padding: 120px 130px;
 width: 500px;
 
-} */
+}
 
 .WorksCarousal {
 
