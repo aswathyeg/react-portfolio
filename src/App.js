@@ -5,7 +5,9 @@ import Home from "./components/Home";
 import NewNavbar from "./components/NewNavbar";
 import Skills from "./components/Skills";
 import Works from "./components/Works";
+import Writings from "./components/Writings";
 import Footer from "./components/Footer";
+import AnimatedCard from "./components/AnimatedCard";
 // import "./App.css";
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="skills" element={<Skills />} />
         <Route path="works" element={<Works />} />
+        <Route path="writings" element={<AnimatedCard />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
       <Footer className="footerClass" />
