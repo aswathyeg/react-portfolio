@@ -75,6 +75,16 @@ const About = (props) => {
                 </Card>
               </div>
             </div>
+            <div className="about">
+              <div class="m-4">
+                <Card className="card1">
+                  <Card.Body>
+                    <Card.Title>Location</Card.Title>
+                    <Card.Text className="smallCards">Bangalore</Card.Text>
+                  </Card.Body>
+                </Card>
+              </div>
+            </div>
           </div>
         </CardGroup>
       </Container>
