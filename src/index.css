@@ -73,7 +73,7 @@
 }
 
 .progressbarContainer {
-    margin-top: 3% !important;
+    margin-top: 2% !important;
 }
 
 .contactDiv {
@@ -134,7 +134,7 @@
 display: flex;
 /* flex: .2 px !important; */
 /* margin-left: 50px; */
-
+font-family: 'Kurale', serif;
     color: black;
     align-items: center;
     border: none !important;
@@ -162,11 +162,21 @@ display: flex;
 
 .smallCards {
     color: grey;
-    font-size: 38px;
+    font-size: 20px;
     font-family: 'Kurale', serif;
     /* text-align: center!important;
     align-items: center!important;  */
 
+}
+.aboutTitle{
+    font-size: 28px !important;
+
+}
+.aboutSmallCards{
+    color: grey !important;
+    font-size: 25px !important;
+    font-family: 'Kurale', serif;
+    margin-top: 5%;
 }
 
 .homeSmallCards {
@@ -219,7 +229,7 @@ display: flex;
 }
 .about{
     display: flex;
-      flex:35 !important;
+      /* flex:20!important; */
       /* border-radius: 15px!important; */
       /* align-items: center; */
       /* width: 100px !important; */
@@ -235,11 +245,13 @@ display: flex;
     align-items: center !important;
     border-radius: 15px!important;
   }    
- 
+ .newNavBrand{
+    margin-left:30px !important ;
+}
 
 .card1{
     box-shadow: 5px 5px 3px rgb(185, 177, 177)!important;
-    width :220px;
+    width :230px;
     height:140px !important;
     align-items: center !important;
     justify-content: center !important;
@@ -265,7 +277,8 @@ display: flex;
 .titleCard {
 
     text-align: center !important;
-    font-family: 'Kurale', serif;
+    font-family: "Helvetica Neue";
+    font-size: 32px;
     
 }
 
@@ -294,8 +307,9 @@ background: #e0e0e0; */
 
 }
 .me-auto{
-    /* display: flex;
-    padding : 5 15px 10 15px !important; */
+    width: 25%;
+    padding: 10px;
+   
 }
 /* Navbar Nav Link{
     padding-left:30px !important;
@@ -339,7 +353,7 @@ background: #e0e0e0; */
     font-size: 70px !important;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 1%;
+    margin-bottom: -15%;
     padding: 2px;
 
 }
@@ -350,15 +364,24 @@ background: #e0e0e0; */
     background: -webkit-linear-gradient(#eee, #120f0f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
+/* margin-top: -52px !important; */
     /* position: relative;
     max-width: 1700px;
     margin: 1400px auto;
     text-align: center; */
-    
+   /* margin-top: 10%;  */
     
  
 }
+/* .homeTitle::before,
+.homeTitle::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid black;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+} */
 
 /* .homeTitle:before {
     content:" ";
@@ -462,3 +485,7 @@ input[type=checkbox] {
     height: 100%;
     cursor: url('https://uploads.codesandbox.io/uploads/user/b3e56831-8b98-4fee-b941-0e27f39883ab/Ad1_-cursor.png') 39 39, auto;
   } */
+  /* .cardGradient{
+    background: linear-gradient(to bottom, #669999 0%, #ffffff 100%) !important;
+  } */
+ 
