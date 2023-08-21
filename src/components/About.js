@@ -49,8 +49,8 @@ const About = (props) => {
               <div class="m-4">
                 <Card className="card1">
                   <Card.Body>
-                    <Card.Title>Experience</Card.Title>
-                    <Card.Text className="smallCards">2+ years</Card.Text>
+                    <Card.Title className="aboutTitle">2+ years</Card.Title>
+                    <Card.Text className="smallCards">Experience</Card.Text>
                   </Card.Body>
                 </Card>
               </div>
@@ -59,8 +59,8 @@ const About = (props) => {
               <div class="m-4">
                 <Card className="card1">
                   <Card.Body>
-                    <Card.Title>Education</Card.Title>
-                    <Card.Text className="smallCards">MCA</Card.Text>
+                    <Card.Title className="aboutTitle">MCA</Card.Title>
+                    <Card.Text className="smallCards">Education</Card.Text>
                   </Card.Body>
                 </Card>
               </div>
@@ -69,8 +69,8 @@ const About = (props) => {
               <div class="m-4">
                 <Card className="card1">
                   <Card.Body>
-                    <Card.Title>Support</Card.Title>
-                    <Card.Text className="smallCards">Online</Card.Text>
+                    <Card.Title className="aboutTitle">Online</Card.Title>
+                    <Card.Text className="smallCards">Support</Card.Text>
                   </Card.Body>
                 </Card>
               </div>
@@ -79,8 +79,8 @@ const About = (props) => {
               <div class="m-4">
                 <Card className="card1">
                   <Card.Body>
-                    <Card.Title>Location</Card.Title>
-                    <Card.Text className="smallCards">Bangalore</Card.Text>
+                    <Card.Title className="aboutTitle">Bangalore</Card.Title>
+                    <Card.Text className="smallCards">Location</Card.Text>
                   </Card.Body>
                 </Card>
               </div>
