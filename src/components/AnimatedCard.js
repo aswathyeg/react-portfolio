@@ -6,7 +6,7 @@ import chart from "../assets/chart.jpg";
 import cypressIntro from "../assets/cypressIntro.jpg";
 import cypress from "../assets/cypress.jpg";
 import statemanagement from "../assets/statemanagement.jpg";
-import { Container, Card, CardGroup, Figure } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 const AnimatedCard = (props) => {
   return (
     <div>
