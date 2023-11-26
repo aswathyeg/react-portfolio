@@ -45,6 +45,7 @@ const Works = (props) => {
                 </h2>
               </div>
             </div>
+            {/* to add:react-furniture-app */}
 
             {/* <div class="animatedCard">
               <div class="imgBx">
