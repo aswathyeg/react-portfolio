@@ -8,6 +8,7 @@ import Works from "./components/Works";
 import Writings from "./components/Writings";
 import Footer from "./components/Footer";
 import AnimatedCard from "./components/AnimatedCard";
+import Projects from "./components/Projects";
 // import "./App.css";
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="works" element={<Works />} />
         <Route path="writings" element={<AnimatedCard />} />
         <Route path="contact" element={<Contact />} />
+   
       </Routes>
       <Footer className="footerClass" />
     </div>
