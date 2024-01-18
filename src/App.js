@@ -8,7 +8,7 @@ import Works from "./components/Works";
 import Writings from "./components/Writings";
 import Footer from "./components/Footer";
 import AnimatedCard from "./components/AnimatedCard";
-import Projects from "./components/Projects";
+
 // import "./App.css";
 function App() {
   return (
