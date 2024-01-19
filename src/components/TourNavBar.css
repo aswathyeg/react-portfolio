@@ -17,6 +17,9 @@
     color:white!important;
 
 }
+.nav-link{
+    color:white!important
+}
 .navbar{
     position: sticky !important;
     top:0 !important;
