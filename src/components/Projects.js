@@ -2,7 +2,7 @@ import React from 'react'
 import TourHome from './TourHome';
 import Destinations from './Destinations';
 import Activities from './Activities';
-import Footer from './Footer';
+import TourFooter from './TourFooter';
 import "/node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -13,7 +13,7 @@ const Projects = () => {
         <TourHome />
     <Destinations />
     <Activities />
-    {/* <Footer/> */}
+    <TourFooter/>
     </div>
   )
 }
