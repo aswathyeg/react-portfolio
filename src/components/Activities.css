@@ -1,0 +1,113 @@
+animatedBody1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background: #212121;
+    font-family: sans-serif;
+  }
+  .box1{
+    /* width: 1080px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+    /* margin: 0 auto; */
+    background: linear-gradient(90deg,rgb(2, 146, 194)0%,rgb(104, 236, 153)100%) !important;
+  }
+  .animatedCard1{
+    position: relative;
+    width: 330px;
+    height: 330px;
+    /* background: linear-gradient(90deg,rgb(2, 146, 194)0%,rgb(104, 236, 153)100%) !important; */
+    margin: 0 auto;
+    /* border-radius:24px; */
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+  }
+  
+  
+  .animatedCard1:before,
+  .animatedCard1:after
+  {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    /* background: #fff; */
+    transition: 0.5s;
+    z-index:-1;
+  }
+  /* .animatedCard:hover:before{
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  }
+  .animatedCard:hover:after{
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0,0,0,.2);
+  } */
+  .animatedCard1 .imgBx{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  bottom: 6px;
+  right: 6px;
+  background: #222;
+  transition: 0.5s;
+  z-index: 1;
+  }
+  
+  .animatedCard1:hover .imgBx
+  {
+    bottom: 80px;
+  }
+  
+  .animatedCard1 .imgBx img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  .animatedCard1 .details{
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+      height: 60px;
+      text-align: center;
+  }
+  
+  .animatedCard1 .details h2{
+   margin: 0;
+   padding: 0;
+   font-weight: 600;
+   font-size: 20px;
+   color:black;
+   /* text-transform: uppercase; */
+  } 
+  
+  .animatedCard1 .details h2 span{
+  font-weight: 500;
+  font-size: 16px;
+  color: #f38695;
+  display: block;
+  margin-top: 5px;
+   } 
+   .worksAnimatedCard{
+    width:520px !important
+   }
+   .activitiesBody{
+    background: linear-gradient(90deg,rgb(2, 146, 194)0%,rgb(104, 236, 153)100%) !important;
+    min-height:55vh;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content:center !important; */
+
+   }
+   
