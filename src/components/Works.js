@@ -7,7 +7,10 @@ import cypressIntro from "../assets/cypressIntro.jpg";
 import cypress from "../assets/cypress.jpg";
 import bodhii from "../assets/bodhii.jpg";
 import { Container, Card, CardGroup, Figure } from "react-bootstrap";
+import { useNavigate } from 'react-router-dom';
+
 const Works = (props) => {
+  const navigate = useNavigate();
   return (
     <div>
       <Container className="subComponentsContainer">
@@ -18,9 +21,7 @@ const Works = (props) => {
             <div
               class="worksAnimatedCard"
               onClick={() =>
-                window.open(
-                  "https://aswathyeg.medium.com/using-chart-js-in-react-239d0c7f055c"
-                )
+                navigate('/projects')
               }
             >
               <div class="imgBx">
@@ -28,7 +29,7 @@ const Works = (props) => {
               </div>
               <div class="details">
                 <h2>
-                  An Excercise App
+                  A Tourguide App
                   {/* <span>Director</span> */}
                 </h2>
               </div>
