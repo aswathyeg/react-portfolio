@@ -6,6 +6,7 @@ import excercise from "../assets/excercise.jpg";
 import cypressIntro from "../assets/cypressIntro.jpg";
 import cypress from "../assets/cypress.jpg";
 import bodhii from "../assets/bodhii.jpg";
+import tourscrsht from "../assets/tourscrsht.png"
 import { Container, Card, CardGroup, Figure } from "react-bootstrap";
 import { useNavigate } from 'react-router-dom';
 
@@ -25,7 +26,7 @@ const Works = (props) => {
               }
             >
               <div class="imgBx">
-                <img src={excercise} alt="images" />
+                <img src={tourscrsht} alt="images" />
               </div>
               <div class="details">
                 <h2>
