@@ -9,6 +9,7 @@ import bodhii from "../assets/bodhii.jpg";
 import tourscrsht from "../assets/tourscrsht.png"
 import { Container, Card, CardGroup, Figure } from "react-bootstrap";
 import { useNavigate } from 'react-router-dom';
+import furniture from "../assets/furniture.png"
 
 const Works = (props) => {
   const navigate = useNavigate();
@@ -22,7 +23,7 @@ const Works = (props) => {
             <div
               class="worksAnimatedCard"
               onClick={() =>
-                navigate('/projects')
+                navigate('projects')
               }
             >
               <div class="imgBx">
@@ -36,61 +37,66 @@ const Works = (props) => {
               </div>
             </div>
 
-            <div class="worksAnimatedCard">
+            <div class="worksAnimatedCard"
+             onClick={() =>
+              navigate('furnitureApp')
+            }>
               <div class="imgBx">
-                <img src={bodhii} alt="images" />
+                <img src={furniture} alt="images" />
               </div>
               <div class="details">
                 <h2>
-                  An E-Learning App
+                  An E-Commerce App
                   {/* <span>Producer</span> */}
                 </h2>
               </div>
             </div>
-            {/* to add:react-furniture-app */}
+        
+          </div>
+        </body>
+      </Container>
 
-            {/* <div class="animatedCard">
+
+      <Container className="subComponentsContainer">
+        {/* {props.text ? <h4 className="titleCard">Works</h4> : null} */}
+        <br></br>
+        <body>
+          <div class="box">
+            <div
+              class="worksAnimatedCard"
+              onClick={() =>
+                navigate('projects')
+              }
+            >
               <div class="imgBx">
-                <img src={useReducer} alt="images" />
+                <img src={tourscrsht} alt="images" />
               </div>
               <div class="details">
                 <h2>
-                  SomeOne Famous<span>Actor</span>
+                  A Tourguide App
+                  {/* <span>Director</span> */}
                 </h2>
               </div>
             </div>
 
-            <div class="animatedCard">
+            <div class="worksAnimatedCard"
+             onClick={() =>
+              navigate('furnitureApp')
+            }>
               <div class="imgBx">
-                <img src={routing} alt="images" />
+                <img src={furniture} alt="images" />
               </div>
               <div class="details">
                 <h2>
-                  SomeOne Famous<span>Producer</span>
+                  An E-Commerce App
+                  {/* <span>Producer</span> */}
                 </h2>
               </div>
             </div>
-            <div class="animatedCard">
-              <div class="imgBx">
-                <img src={cypressIntro} alt="images" />
-              </div>
-              <div class="details">
-                <h2>
-                  SomeOne Famous<span>Producer</span>
-                </h2>
-              </div>
-            </div>
-            <div class="animatedCard">
-              <div class="imgBx">
-                <img src={cypress} alt="images" />
-              </div>
-              <div class="details">
-                <h2>
-                  SomeOne Famous<span>Producer</span>
-                </h2>
-              </div>
-            </div>
-          </div> */}
+
+
+
+          
           </div>
         </body>
       </Container>
