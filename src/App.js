@@ -9,6 +9,7 @@ import Writings from "./components/Writings";
 import Footer from "./components/Footer";
 import AnimatedCard from "./components/AnimatedCard";
 import Projects from "./components/Projects";
+import FurnitureApp from "./components/FurnitureApp";
 
 
 // import "./App.css";
@@ -25,6 +26,9 @@ function App() {
         <Route path="writings" element={<AnimatedCard />} />
         <Route path="contact" element={<Contact />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="furnitureApp" element={<FurnitureApp />} />
+        
+
       </Routes>
       <Footer className="footerClass" />
     </div>
