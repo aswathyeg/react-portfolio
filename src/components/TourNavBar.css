@@ -6,13 +6,13 @@
     /* position:relative; */
     
 }
-.navbarHome{
+.tournavbarHome{
     /* font-family: 'Kanit'; */
     /* color:white !important; */
     font-size: 18px;
     font-weight: bold;
 }
-.navBrand{
+.tournavBrand{
     font-size: 28px!important;
     color:white!important;
 
@@ -20,8 +20,8 @@
 /* .nav-link{
     color:white!important
 } */
-.navbar{
-    position: sticky !important;
+.tournavbar{
+    /* position: sticky !important; */
     top:0 !important;
     background: transparent !important;
     /* z-index: 999 !important;
@@ -31,7 +31,7 @@
      */
      
   }
-  .navbar.active{
+  .tournavbar.active{
    background:  linear-gradient(90deg,rgb(2, 146, 194)0%,rgb(104, 236, 153)100%) !important;
   
   }
