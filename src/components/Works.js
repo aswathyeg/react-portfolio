@@ -23,7 +23,7 @@ const Works = (props) => {
             <div
               class="worksAnimatedCard"
               onClick={() =>
-                navigate('projects')
+                navigate('tourguide')
               }
             >
               <div class="imgBx">
@@ -65,7 +65,7 @@ const Works = (props) => {
             <div
               class="worksAnimatedCard"
               onClick={() =>
-                navigate('projects')
+                navigate('tourguide')
               }
             >
               <div class="imgBx">
