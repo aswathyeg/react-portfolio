@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes,useLocation } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
@@ -14,9 +14,11 @@ import FurnitureApp from "./components/FurnitureApp";
 
 // import "./App.css";
 function App() {
+  const location = useLocation();
+  const hideNavbarPaths = ["/tourguide", "/furnitureApp"]; // Paths where Navbar should be hidden
   return (
     <div className="App">
-      <NewNavbar />
+     {!hideNavbarPaths.includes(location.pathname) && <NewNavbar />}
 
       <Routes>
         <Route path="/" element={<Home />} />
