@@ -23,7 +23,7 @@ const Works = (props) => {
             <div
               class="worksAnimatedCard"
               onClick={() =>
-                navigate('tourguide')
+                navigate('/tourguide')
               }
             >
               <div class="imgBx">
@@ -39,7 +39,7 @@ const Works = (props) => {
 
             <div class="worksAnimatedCard"
              onClick={() =>
-              navigate('furnitureApp')
+              navigate('/furnitureApp')
             }>
               <div class="imgBx">
                 <img src={furniture} alt="images" />
