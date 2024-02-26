@@ -6,8 +6,13 @@ import excercise from "../assets/excercise.jpg";
 import cypressIntro from "../assets/cypressIntro.jpg";
 import cypress from "../assets/cypress.jpg";
 import bodhii from "../assets/bodhii.jpg";
+import tourscrsht from "../assets/tourscrsht.png"
 import { Container, Card, CardGroup, Figure } from "react-bootstrap";
+import { useNavigate } from 'react-router-dom';
+import furniture from "../assets/furniture.png"
+
 const Works = (props) => {
+  const navigate = useNavigate();
   return (
     <div>
       <Container className="subComponentsContainer">
@@ -18,76 +23,80 @@ const Works = (props) => {
             <div
               class="worksAnimatedCard"
               onClick={() =>
-                window.open(
-                  "https://aswathyeg.medium.com/using-chart-js-in-react-239d0c7f055c"
-                )
+                navigate('/tourguide')
               }
             >
               <div class="imgBx">
-                <img src={excercise} alt="images" />
+                <img src={tourscrsht} alt="images" />
               </div>
               <div class="details">
                 <h2>
-                  An Excercise App
+                  A Tourguide App
                   {/* <span>Director</span> */}
                 </h2>
               </div>
             </div>
 
-            <div class="worksAnimatedCard">
+            <div class="worksAnimatedCard"
+             onClick={() =>
+              navigate('/furnitureApp')
+            }>
               <div class="imgBx">
-                <img src={bodhii} alt="images" />
+                <img src={furniture} alt="images" />
               </div>
               <div class="details">
                 <h2>
-                  An E-Learning App
+                  An E-Commerce App
+                  {/* <span>Producer</span> */}
+                </h2>
+              </div>
+            </div>
+        
+          </div>
+        </body>
+      </Container>
+
+
+      <Container className="subComponentsContainer">
+        {/* {props.text ? <h4 className="titleCard">Works</h4> : null} */}
+        <br></br>
+        <body>
+          <div class="box">
+            <div
+              class="worksAnimatedCard"
+              onClick={() =>
+                navigate('tourguide')
+              }
+            >
+              <div class="imgBx">
+                <img src={tourscrsht} alt="images" />
+              </div>
+              <div class="details">
+                <h2>
+                  A Tourguide App
+                  {/* <span>Director</span> */}
+                </h2>
+              </div>
+            </div>
+
+            <div class="worksAnimatedCard"
+             onClick={() =>
+              navigate('furnitureApp')
+            }>
+              <div class="imgBx">
+                <img src={furniture} alt="images" />
+              </div>
+              <div class="details">
+                <h2>
+                  An E-Commerce App
                   {/* <span>Producer</span> */}
                 </h2>
               </div>
             </div>
 
-            {/* <div class="animatedCard">
-              <div class="imgBx">
-                <img src={useReducer} alt="images" />
-              </div>
-              <div class="details">
-                <h2>
-                  SomeOne Famous<span>Actor</span>
-                </h2>
-              </div>
-            </div>
 
-            <div class="animatedCard">
-              <div class="imgBx">
-                <img src={routing} alt="images" />
-              </div>
-              <div class="details">
-                <h2>
-                  SomeOne Famous<span>Producer</span>
-                </h2>
-              </div>
-            </div>
-            <div class="animatedCard">
-              <div class="imgBx">
-                <img src={cypressIntro} alt="images" />
-              </div>
-              <div class="details">
-                <h2>
-                  SomeOne Famous<span>Producer</span>
-                </h2>
-              </div>
-            </div>
-            <div class="animatedCard">
-              <div class="imgBx">
-                <img src={cypress} alt="images" />
-              </div>
-              <div class="details">
-                <h2>
-                  SomeOne Famous<span>Producer</span>
-                </h2>
-              </div>
-            </div>
-          </div> */}
+
+          
           </div>
         </body>
       </Container>

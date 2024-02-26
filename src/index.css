@@ -311,6 +311,9 @@ background: #e0e0e0; */
     padding: 10px;
    
 }
+/* .navtop{margin-top: .1%!important;
+
+} */
 /* Navbar Nav Link{
     padding-left:30px !important;
     padding-right:30px !important;
@@ -373,6 +376,16 @@ background: #e0e0e0; */
     
  
 }
+.footer {
+    margin: 0;
+    padding: 0;
+    position:sticky;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: grey !important;
+    text-decoration: none !important;
+}
 /* .homeTitle::before,
 .homeTitle::after {
     display: inline-block;
@@ -428,10 +441,7 @@ input[type=checkbox] {
     accent-color: black;
 }
 
-.footer {
-    color: grey !important;
-    text-decoration: none !important;
-}
+
 
 .footerClass {
     position: fixed;

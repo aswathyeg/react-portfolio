@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aubrey&family=DM+Sans:opsz,wght@9..40,200&family=Kanit:wght@200&family=Kurale&display=swap');
+.container-style{
+    /* height: 100%; */
+    /* width:100%; */
+    /* position:relative; */
+    
+}
+.tournavbarHome{
+    /* font-family: 'Kanit'; */
+    /* color:white !important; */
+    font-size: 18px;
+    font-weight: bold;
+}
+.tournavBrand{
+    font-size: 28px!important;
+    color:white!important;
+
+}
+/* .nav-link{
+    color:white!important
+} */
+.tournavbar{
+    /* position: sticky !important; */
+    top:0 !important;
+    background: transparent !important;
+    /* z-index: 999 !important;
+    height: 80px !important;
+    display: flex !important;
+    justify-content: center !important;
+     */
+     
+  }
+  .tournavbar.active{
+   background:  linear-gradient(90deg,rgb(2, 146, 194)0%,rgb(104, 236, 153)100%) !important;
+  
+  }
+  
